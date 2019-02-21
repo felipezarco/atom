@@ -1,0 +1,9 @@
+
+(atom:2774): Gtk-WARNING **: 08:09:22.321: Theme parsing error: gtk.css:68:35: The style property GtkButton:child-displacement-x is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(atom:2774): Gtk-WARNING **: 08:09:22.321: Theme parsing error: gtk.css:69:35: The style property GtkButton:child-displacement-y is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(atom:2774): Gtk-WARNING **: 08:09:22.321: Theme parsing error: gtk.css:73:46: The style property GtkScrolledWindow:scrollbars-within-bevel is deprecated and shouldn't be used anymore. It will be removed in a future version
+Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: <embedded>:14:639184
+Remote event names: destroyed, crashed

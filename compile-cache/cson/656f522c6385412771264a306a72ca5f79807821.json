@@ -1,0 +1,1 @@
+{".source.scss, .source.css.scss":{"@include media-break-point-up bootstrap 4":{"prefix":"b4media","body":"@include media-breakpoint-${1:up}(${2:xl}) {\n  $3\n}\n$0"},"@media bootstrap 3":{"prefix":"b3media","body":"@media (${1:max}-width: ${2:$screen-lg-min}) {\n  $3\n}\n$0"}}}

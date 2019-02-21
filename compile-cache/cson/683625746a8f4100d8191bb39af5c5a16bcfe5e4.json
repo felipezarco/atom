@@ -1,0 +1,1 @@
+{".source.ruby":{"task with environment":{"prefix":"task","body":"task ${1:task_name}:${2: :environment} do ${2:|t|}\n  ${3:#task code...}\nend"}}}

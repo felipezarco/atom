@@ -1,0 +1,31 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "trailing-spaces"
+      "wrap-guide"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontSize: 18
+    lineHeight: 1.2
+  emmet: {}
+  "exception-reporting":
+    userId: "d083badf-4efd-4e9d-b292-11772bd96e96"
+  "remote-ftp":
+    connector:
+      autoUploadOnSave: "never"
+    notifications:
+      enableTransfer: true
+      enableWatchFileChange: true
+    statusbar:
+      enable: true
+      position: "right"
+  "sync-settings":
+    _lastBackupHash: "a3d3e978aee0e2ce865aae64f6ba7efe16687141"
+    gistId: "34d1e277778998425c89dd3ddf20f9e6"
+    personalAccessToken: "3ce5d2375d332f5d35787b3c4bd2a6440a38f421"
