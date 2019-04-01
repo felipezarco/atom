@@ -1,0 +1,29 @@
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+exports['default'] = repositoryForEditorPath;
+
+var _atom = require('atom');
+
+/**
+ * Given a pathString for a file in an active TextEditor
+ *
+ * @param  {String} pathString
+ * @return {Promise<GitRepository>}
+ */
+'use babel';
+
+function repositoryForEditorPath(pathString) {
+  var directory = new _atom.Directory(pathString);
+
+  return atom.project.repositoryForDirectory(directory).then(function (projectRepo) {
+    if (!projectRepo) {
+      throw new Error('Unable to find GitRepository for path ' + pathString + '.');
+    }
+
+    return projectRepo;
+  });
+}
+
+module.exports = exports['default'];
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2ZlbGlwZS8uYXRvbS9wYWNrYWdlcy9naXQtYmxhbWUvbGliL3V0aWwvcmVwb3NpdG9yeUZvckVkaXRvclBhdGguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O3FCQVV3Qix1QkFBdUI7O29CQVJyQixNQUFNOzs7Ozs7OztBQUZoQyxXQUFXLENBQUM7O0FBVUcsU0FBUyx1QkFBdUIsQ0FBQyxVQUFVLEVBQUU7QUFDMUQsTUFBTSxTQUFTLEdBQUcsb0JBQWMsVUFBVSxDQUFDLENBQUM7O0FBRTVDLFNBQU8sSUFBSSxDQUFDLE9BQU8sQ0FBQyxzQkFBc0IsQ0FBQyxTQUFTLENBQUMsQ0FDbEQsSUFBSSxDQUFDLFVBQUMsV0FBVyxFQUFLO0FBQ3JCLFFBQUksQ0FBQyxXQUFXLEVBQUU7QUFDaEIsWUFBTSxJQUFJLEtBQUssNENBQTBDLFVBQVUsT0FBSSxDQUFDO0tBQ3pFOztBQUVELFdBQU8sV0FBVyxDQUFDO0dBQ3BCLENBQUMsQ0FBQztDQUNOIiwiZmlsZSI6Ii9ob21lL2ZlbGlwZS8uYXRvbS9wYWNrYWdlcy9naXQtYmxhbWUvbGliL3V0aWwvcmVwb3NpdG9yeUZvckVkaXRvclBhdGguanMiLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGJhYmVsJztcblxuaW1wb3J0IHsgRGlyZWN0b3J5IH0gZnJvbSAnYXRvbSc7XG5cbi8qKlxuICogR2l2ZW4gYSBwYXRoU3RyaW5nIGZvciBhIGZpbGUgaW4gYW4gYWN0aXZlIFRleHRFZGl0b3JcbiAqXG4gKiBAcGFyYW0gIHtTdHJpbmd9IHBhdGhTdHJpbmdcbiAqIEByZXR1cm4ge1Byb21pc2U8R2l0UmVwb3NpdG9yeT59XG4gKi9cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHJlcG9zaXRvcnlGb3JFZGl0b3JQYXRoKHBhdGhTdHJpbmcpIHtcbiAgY29uc3QgZGlyZWN0b3J5ID0gbmV3IERpcmVjdG9yeShwYXRoU3RyaW5nKTtcblxuICByZXR1cm4gYXRvbS5wcm9qZWN0LnJlcG9zaXRvcnlGb3JEaXJlY3RvcnkoZGlyZWN0b3J5KVxuICAgIC50aGVuKChwcm9qZWN0UmVwbykgPT4ge1xuICAgICAgaWYgKCFwcm9qZWN0UmVwbykge1xuICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYFVuYWJsZSB0byBmaW5kIEdpdFJlcG9zaXRvcnkgZm9yIHBhdGggJHtwYXRoU3RyaW5nfS5gKTtcbiAgICAgIH1cblxuICAgICAgcmV0dXJuIHByb2plY3RSZXBvO1xuICAgIH0pO1xufVxuIl19

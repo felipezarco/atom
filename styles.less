@@ -1,7 +1,17 @@
 
 // style UI elements inside atom-text-editor
-atom-text-editor .cursor {
-  border-color: yellow;
+atom-text-editor {
+  // .gutter {
+  //   color: #ffffff;
+  // }
+
+  .cursor {
+    border-color: yellow;
+  }
+}
+
+.atom-text-editor .gutter, atom-text-editor .gutter {
+  // background-color: #00001A;
 }
 
 // style the background color of the tree view
@@ -10,5 +20,43 @@ atom-text-editor .cursor {
 }
 
 .status-bar {
-  font-size: 14px;
+  font-size: 20px;
+}
+
+.editor {
+  line-height: 1em;
+  // background-color: #00001A;
+}
+
+atom-text-editor.editor {
+  .bracket-colorizer-color0 {
+    color: white;
+  }
+  .bracket-colorizer-color1  {
+    color: lighten(teal, 30);
+  }
+  .bracket-colorizer-color2 {
+    color: yellow;
+  }
+  .bracket-colorizer-color3  {
+    color: lightblue;
+  }
+  .bracket-colorizer-color4  {
+    color: lightgreen;
+  }
+  .bracket-colorizer-color5 {
+    color: violet;
+  }
+  .bracket-colorizer-color6 {
+    color: orange;
+  }
+  .bracket-colorizer-color7 {
+    color: red;
+  }
+  .bracket-colorizer-color8 {
+    color: rgb(249, 98, 98);
+  }
+  .bracket-colorizer-color9 {
+    color: rgb(1, 204, 190);
+  }
 }

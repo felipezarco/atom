@@ -1,0 +1,1 @@
+{"source":"@keyframes bracket-animation {\n  from {\n    border-color: #656c72;\n  }\n  40% {\n    border-color: rgba(29, 31, 33, 0.615);\n  }\n  to {\n    border-color: rgba(29, 31, 33, 0.45);\n  }\n}\natom-text-editor.editor .bracket-matcher .region {\n  animation: bracket-animation 0.85s;\n  border: 1px solid rgba(29, 31, 33, 0.45);\n}\n"}

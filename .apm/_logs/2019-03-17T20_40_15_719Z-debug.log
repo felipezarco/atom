@@ -1,0 +1,2346 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/share/atom/resources/app/apm/bin/node',
+1 verbose cli   '/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/home/felipe/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/home/felipe/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   'https://www.atom.io/api/packages/platformio-ide-terminal/versions/2.9.1/tarball',
+1 verbose cli   '--runtime=electron',
+1 verbose cli   '--target=2.0.16',
+1 verbose cli   '--dist-url=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style' ]
+2 info using npm@6.2.0
+3 info using node@v8.9.3
+4 verbose npm-session cb38659a3700fcf6
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://www.atom.io/api/packages/platformio-ide-terminal/versions/2.9.1/tarball 7091ms
+8 silly pacote remote manifest for undefined@https://www.atom.io/api/packages/platformio-ide-terminal/versions/2.9.1/tarball fetched in 7130ms
+9 timing stage:loadCurrentTree Completed in 7364ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule platformio-ide-terminal@2.9.1 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/atom-space-pen-views 188ms (from cache)
+18 silly pacote range manifest for atom-space-pen-views@^2.2.0 fetched in 192ms
+19 silly resolveWithNewModule atom-space-pen-views@2.2.0 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/underscore 193ms (from cache)
+21 http fetch GET 304 https://registry.npmjs.org/node-pty-prebuilt 196ms (from cache)
+22 silly pacote range manifest for underscore@^1.8.3 fetched in 197ms
+23 silly resolveWithNewModule underscore@1.9.1 checking installable status
+24 silly pacote range manifest for node-pty-prebuilt@^0.7.6 fetched in 199ms
+25 silly resolveWithNewModule node-pty-prebuilt@0.7.6 checking installable status
+26 http fetch GET 200 https://github.com/jeremyramin/term.js/tarball/master 1094ms
+27 silly pacote remote manifest for term.js@https://github.com/jeremyramin/term.js/tarball/master fetched in 1098ms
+28 silly resolveWithNewModule term.js@0.0.7 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/space-pen 52ms (from cache)
+30 silly pacote range manifest for space-pen@^5.1.2 fetched in 55ms
+31 silly resolveWithNewModule space-pen@5.1.2 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/fuzzaldrin 56ms (from cache)
+33 silly pacote range manifest for fuzzaldrin@^2.1.0 fetched in 58ms
+34 silly resolveWithNewModule fuzzaldrin@2.1.0 checking installable status
+35 http fetch GET 200 https://registry.npmjs.org/grim 5ms (from cache)
+36 silly pacote range manifest for grim@^1.0.0 fetched in 8ms
+37 silly resolveWithNewModule grim@1.5.0 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/underscore-plus 45ms (from cache)
+39 silly pacote range manifest for underscore-plus@1.x fetched in 46ms
+40 silly resolveWithNewModule underscore-plus@1.6.8 checking installable status
+41 http fetch GET 200 https://registry.npmjs.org/jquery 75ms
+42 silly pacote version manifest for jquery@2.1.4 fetched in 79ms
+43 silly resolveWithNewModule jquery@2.1.4 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/emissary 46ms (from cache)
+45 silly pacote range manifest for emissary@^1.2.0 fetched in 48ms
+46 silly resolveWithNewModule emissary@1.3.3 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/es6-weak-map 46ms (from cache)
+48 silly pacote range manifest for es6-weak-map@^0.1.2 fetched in 48ms
+49 silly resolveWithNewModule es6-weak-map@0.1.4 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/property-accessors 58ms (from cache)
+51 silly pacote range manifest for property-accessors@^1.1 fetched in 60ms
+52 silly resolveWithNewModule property-accessors@1.1.3 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/mixto 68ms (from cache)
+54 silly pacote range manifest for mixto@1.x fetched in 70ms
+55 silly resolveWithNewModule mixto@1.0.0 checking installable status
+56 http fetch GET 304 https://registry.npmjs.org/d 80ms (from cache)
+57 silly pacote range manifest for d@~0.1.1 fetched in 90ms
+58 silly resolveWithNewModule d@0.1.1 checking installable status
+59 http fetch GET 200 https://registry.npmjs.org/es5-ext 95ms
+60 http fetch GET 304 https://registry.npmjs.org/es6-iterator 109ms (from cache)
+61 silly pacote range manifest for es6-iterator@~0.1.3 fetched in 116ms
+62 silly resolveWithNewModule es6-iterator@0.1.3 checking installable status
+63 silly pacote range manifest for es5-ext@~0.10.6 fetched in 122ms
+64 silly resolveWithNewModule es5-ext@0.10.49 checking installable status
+65 http fetch GET 304 https://registry.npmjs.org/es6-symbol 150ms (from cache)
+66 silly pacote range manifest for es6-symbol@~2.0.1 fetched in 152ms
+67 silly resolveWithNewModule es6-symbol@2.0.1 checking installable status
+68 silly pacote range manifest for es6-symbol@~3.1.1 fetched in 4ms
+69 silly resolveWithNewModule es6-symbol@3.1.1 checking installable status
+70 silly pacote range manifest for es6-iterator@~2.0.3 fetched in 5ms
+71 silly resolveWithNewModule es6-iterator@2.0.3 checking installable status
+72 http fetch GET 304 https://registry.npmjs.org/next-tick 63ms (from cache)
+73 silly pacote range manifest for next-tick@^1.0.0 fetched in 65ms
+74 silly resolveWithNewModule next-tick@1.0.0 checking installable status
+75 silly pacote range manifest for d@1 fetched in 1ms
+76 silly resolveWithNewModule d@1.0.0 checking installable status
+77 silly pacote range manifest for underscore@~1.8.3 fetched in 2ms
+78 silly resolveWithNewModule underscore@1.8.3 checking installable status
+79 http fetch GET 200 https://registry.npmjs.org/nan 57ms
+80 silly pacote version manifest for nan@2.10.0 fetched in 60ms
+81 silly resolveWithNewModule nan@2.10.0 checking installable status
+82 http fetch GET 200 https://registry.npmjs.org/prebuild-install 63ms
+83 silly pacote range manifest for prebuild-install@^5.0.0 fetched in 68ms
+84 silly resolveWithNewModule prebuild-install@5.2.5 checking installable status
+85 http fetch GET 304 https://registry.npmjs.org/minimist 54ms (from cache)
+86 silly pacote range manifest for minimist@^1.2.0 fetched in 57ms
+87 silly resolveWithNewModule minimist@1.2.0 checking installable status
+88 http fetch GET 304 https://registry.npmjs.org/mkdirp 63ms (from cache)
+89 silly pacote range manifest for mkdirp@^0.5.1 fetched in 66ms
+90 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+91 http fetch GET 304 https://registry.npmjs.org/expand-template 72ms (from cache)
+92 silly pacote range manifest for expand-template@^2.0.3 fetched in 80ms
+93 silly resolveWithNewModule expand-template@2.0.3 checking installable status
+94 http fetch GET 304 https://registry.npmjs.org/detect-libc 87ms (from cache)
+95 silly pacote range manifest for detect-libc@^1.0.3 fetched in 88ms
+96 silly resolveWithNewModule detect-libc@1.0.3 checking installable status
+97 http fetch GET 304 https://registry.npmjs.org/pump 58ms (from cache)
+98 http fetch GET 304 https://registry.npmjs.org/rc 50ms (from cache)
+99 silly pacote range manifest for pump@^2.0.1 fetched in 61ms
+100 silly resolveWithNewModule pump@2.0.1 checking installable status
+101 silly pacote range manifest for rc@^1.2.7 fetched in 55ms
+102 silly resolveWithNewModule rc@1.2.8 checking installable status
+103 http fetch GET 304 https://registry.npmjs.org/github-from-package 165ms (from cache)
+104 http fetch GET 304 https://registry.npmjs.org/node-abi 165ms (from cache)
+105 http fetch GET 304 https://registry.npmjs.org/tar-fs 80ms (from cache)
+106 http fetch GET 304 https://registry.npmjs.org/noop-logger 168ms (from cache)
+107 silly pacote version manifest for github-from-package@0.0.0 fetched in 174ms
+108 silly resolveWithNewModule github-from-package@0.0.0 checking installable status
+109 silly pacote range manifest for node-abi@^2.7.0 fetched in 173ms
+110 silly resolveWithNewModule node-abi@2.7.1 checking installable status
+111 silly pacote range manifest for tar-fs@^1.13.0 fetched in 87ms
+112 silly resolveWithNewModule tar-fs@1.16.3 checking installable status
+113 http fetch GET 304 https://registry.npmjs.org/npmlog 175ms (from cache)
+114 silly pacote range manifest for noop-logger@^0.1.1 fetched in 175ms
+115 silly resolveWithNewModule noop-logger@0.1.1 checking installable status
+116 silly pacote range manifest for npmlog@^4.0.1 fetched in 182ms
+117 silly resolveWithNewModule npmlog@4.1.2 checking installable status
+118 http fetch GET 304 https://registry.npmjs.org/os-homedir 182ms (from cache)
+119 silly pacote range manifest for os-homedir@^1.0.1 fetched in 187ms
+120 silly resolveWithNewModule os-homedir@1.0.2 checking installable status
+121 http fetch GET 304 https://registry.npmjs.org/tunnel-agent 70ms (from cache)
+122 http fetch GET 304 https://registry.npmjs.org/napi-build-utils 192ms (from cache)
+123 http fetch GET 304 https://registry.npmjs.org/which-pm-runs 70ms (from cache)
+124 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 73ms
+125 silly resolveWithNewModule tunnel-agent@0.6.0 checking installable status
+126 silly pacote range manifest for napi-build-utils@^1.0.1 fetched in 194ms
+127 silly resolveWithNewModule napi-build-utils@1.0.1 checking installable status
+128 silly pacote range manifest for which-pm-runs@^1.0.0 fetched in 72ms
+129 silly resolveWithNewModule which-pm-runs@1.0.0 checking installable status
+130 http fetch GET 304 https://registry.npmjs.org/simple-get 869ms (from cache)
+131 silly pacote range manifest for simple-get@^2.7.0 fetched in 872ms
+132 silly resolveWithNewModule simple-get@2.8.1 checking installable status
+133 silly pacote version manifest for minimist@0.0.8 fetched in 1ms
+134 silly resolveWithNewModule minimist@0.0.8 checking installable status
+135 http fetch GET 200 https://registry.npmjs.org/semver 3ms (from cache)
+136 silly pacote range manifest for semver@^5.4.1 fetched in 10ms
+137 silly resolveWithNewModule semver@5.6.0 checking installable status
+138 http fetch GET 304 https://registry.npmjs.org/gauge 83ms (from cache)
+139 http fetch GET 304 https://registry.npmjs.org/console-control-strings 85ms (from cache)
+140 http fetch GET 304 https://registry.npmjs.org/are-we-there-yet 86ms (from cache)
+141 silly pacote range manifest for gauge@~2.7.3 fetched in 87ms
+142 silly resolveWithNewModule gauge@2.7.4 checking installable status
+143 silly pacote range manifest for are-we-there-yet@~1.1.2 fetched in 89ms
+144 silly resolveWithNewModule are-we-there-yet@1.1.5 checking installable status
+145 silly pacote range manifest for console-control-strings@~1.1.0 fetched in 89ms
+146 silly resolveWithNewModule console-control-strings@1.1.0 checking installable status
+147 http fetch GET 304 https://registry.npmjs.org/set-blocking 89ms (from cache)
+148 silly pacote range manifest for set-blocking@~2.0.0 fetched in 91ms
+149 silly resolveWithNewModule set-blocking@2.0.0 checking installable status
+150 http fetch GET 304 https://registry.npmjs.org/readable-stream 52ms (from cache)
+151 silly pacote range manifest for readable-stream@^2.0.6 fetched in 55ms
+152 silly resolveWithNewModule readable-stream@2.3.6 checking installable status
+153 http fetch GET 304 https://registry.npmjs.org/delegates 72ms (from cache)
+154 silly pacote range manifest for delegates@^1.0.0 fetched in 73ms
+155 silly resolveWithNewModule delegates@1.0.0 checking installable status
+156 http fetch GET 200 https://registry.npmjs.org/isarray 15ms (from cache)
+157 silly pacote range manifest for isarray@~1.0.0 fetched in 16ms
+158 silly resolveWithNewModule isarray@1.0.0 checking installable status
+159 http fetch GET 304 https://registry.npmjs.org/core-util-is 56ms (from cache)
+160 silly pacote range manifest for core-util-is@~1.0.0 fetched in 61ms
+161 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+162 http fetch GET 304 https://registry.npmjs.org/inherits 62ms (from cache)
+163 silly pacote range manifest for inherits@~2.0.3 fetched in 75ms
+164 silly resolveWithNewModule inherits@2.0.3 checking installable status
+165 http fetch GET 304 https://registry.npmjs.org/string_decoder 90ms (from cache)
+166 http fetch GET 304 https://registry.npmjs.org/safe-buffer 98ms (from cache)
+167 silly pacote range manifest for string_decoder@~1.1.1 fetched in 99ms
+168 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+169 http fetch GET 304 https://registry.npmjs.org/process-nextick-args 100ms (from cache)
+170 silly pacote range manifest for safe-buffer@~5.1.1 fetched in 101ms
+171 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+172 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 107ms
+173 silly resolveWithNewModule process-nextick-args@2.0.0 checking installable status
+174 http fetch GET 304 https://registry.npmjs.org/util-deprecate 106ms (from cache)
+175 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 108ms
+176 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+177 http fetch GET 304 https://registry.npmjs.org/aproba 72ms (from cache)
+178 silly pacote range manifest for aproba@^1.0.3 fetched in 86ms
+179 silly resolveWithNewModule aproba@1.2.0 checking installable status
+180 http fetch GET 304 https://registry.npmjs.org/signal-exit 86ms (from cache)
+181 http fetch GET 304 https://registry.npmjs.org/object-assign 87ms (from cache)
+182 http fetch GET 304 https://registry.npmjs.org/string-width 87ms (from cache)
+183 http fetch GET 304 https://registry.npmjs.org/has-unicode 90ms (from cache)
+184 silly pacote range manifest for object-assign@^4.1.0 fetched in 91ms
+185 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+186 silly pacote range manifest for signal-exit@^3.0.0 fetched in 92ms
+187 silly resolveWithNewModule signal-exit@3.0.2 checking installable status
+188 silly pacote range manifest for string-width@^1.0.1 fetched in 93ms
+189 silly resolveWithNewModule string-width@1.0.2 checking installable status
+190 silly pacote range manifest for has-unicode@^2.0.0 fetched in 96ms
+191 silly resolveWithNewModule has-unicode@2.0.1 checking installable status
+192 http fetch GET 304 https://registry.npmjs.org/wide-align 95ms (from cache)
+193 silly pacote range manifest for wide-align@^1.1.0 fetched in 99ms
+194 silly resolveWithNewModule wide-align@1.1.3 checking installable status
+195 http fetch GET 304 https://registry.npmjs.org/strip-ansi 100ms (from cache)
+196 silly pacote range manifest for strip-ansi@^3.0.1 fetched in 102ms
+197 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+198 http fetch GET 304 https://registry.npmjs.org/code-point-at 55ms (from cache)
+199 silly pacote range manifest for code-point-at@^1.0.0 fetched in 58ms
+200 silly resolveWithNewModule code-point-at@1.1.0 checking installable status
+201 http fetch GET 304 https://registry.npmjs.org/is-fullwidth-code-point 67ms (from cache)
+202 silly pacote range manifest for is-fullwidth-code-point@^1.0.0 fetched in 69ms
+203 silly resolveWithNewModule is-fullwidth-code-point@1.0.0 checking installable status
+204 http fetch GET 304 https://registry.npmjs.org/number-is-nan 48ms (from cache)
+205 silly pacote range manifest for number-is-nan@^1.0.0 fetched in 49ms
+206 silly resolveWithNewModule number-is-nan@1.0.1 checking installable status
+207 http fetch GET 304 https://registry.npmjs.org/ansi-regex 54ms (from cache)
+208 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 56ms
+209 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+210 http fetch GET 304 https://registry.npmjs.org/end-of-stream 41ms (from cache)
+211 silly pacote range manifest for end-of-stream@^1.1.0 fetched in 45ms
+212 silly resolveWithNewModule end-of-stream@1.4.1 checking installable status
+213 http fetch GET 304 https://registry.npmjs.org/once 63ms (from cache)
+214 silly pacote range manifest for once@^1.3.1 fetched in 66ms
+215 silly resolveWithNewModule once@1.4.0 checking installable status
+216 http fetch GET 304 https://registry.npmjs.org/wrappy 62ms (from cache)
+217 silly pacote range manifest for wrappy@1 fetched in 64ms
+218 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+219 http fetch GET 304 https://registry.npmjs.org/ini 51ms (from cache)
+220 silly pacote range manifest for ini@~1.3.0 fetched in 52ms
+221 silly resolveWithNewModule ini@1.3.5 checking installable status
+222 http fetch GET 304 https://registry.npmjs.org/strip-json-comments 57ms (from cache)
+223 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 58ms
+224 silly resolveWithNewModule strip-json-comments@2.0.1 checking installable status
+225 http fetch GET 304 https://registry.npmjs.org/deep-extend 66ms (from cache)
+226 silly pacote range manifest for deep-extend@^0.6.0 fetched in 67ms
+227 silly resolveWithNewModule deep-extend@0.6.0 checking installable status
+228 http fetch GET 200 https://registry.npmjs.org/decompress-response 47ms
+229 http fetch GET 304 https://registry.npmjs.org/simple-concat 47ms (from cache)
+230 silly pacote range manifest for decompress-response@^3.3.0 fetched in 49ms
+231 silly resolveWithNewModule decompress-response@3.3.0 checking installable status
+232 silly pacote range manifest for simple-concat@^1.0.0 fetched in 49ms
+233 silly resolveWithNewModule simple-concat@1.0.0 checking installable status
+234 http fetch GET 304 https://registry.npmjs.org/mimic-response 46ms (from cache)
+235 silly pacote range manifest for mimic-response@^1.0.0 fetched in 49ms
+236 silly resolveWithNewModule mimic-response@1.0.1 checking installable status
+237 silly pacote range manifest for pump@^1.0.0 fetched in 3ms
+238 silly resolveWithNewModule pump@1.0.3 checking installable status
+239 http fetch GET 304 https://registry.npmjs.org/tar-stream 48ms (from cache)
+240 silly pacote range manifest for tar-stream@^1.1.2 fetched in 51ms
+241 silly resolveWithNewModule tar-stream@1.6.2 checking installable status
+242 http fetch GET 304 https://registry.npmjs.org/chownr 54ms (from cache)
+243 silly pacote range manifest for chownr@^1.0.1 fetched in 55ms
+244 silly resolveWithNewModule chownr@1.1.1 checking installable status
+245 http fetch GET 304 https://registry.npmjs.org/fs-constants 72ms (from cache)
+246 http fetch GET 304 https://registry.npmjs.org/buffer-alloc 72ms (from cache)
+247 silly pacote range manifest for fs-constants@^1.0.0 fetched in 74ms
+248 silly resolveWithNewModule fs-constants@1.0.0 checking installable status
+249 silly pacote range manifest for buffer-alloc@^1.2.0 fetched in 74ms
+250 silly resolveWithNewModule buffer-alloc@1.2.0 checking installable status
+251 http fetch GET 304 https://registry.npmjs.org/to-buffer 74ms (from cache)
+252 http fetch GET 304 https://registry.npmjs.org/bl 76ms (from cache)
+253 http fetch GET 304 https://registry.npmjs.org/xtend 77ms (from cache)
+254 silly pacote range manifest for bl@^1.0.0 fetched in 83ms
+255 silly resolveWithNewModule bl@1.2.2 checking installable status
+256 silly pacote range manifest for to-buffer@^1.1.1 fetched in 83ms
+257 silly resolveWithNewModule to-buffer@1.1.1 checking installable status
+258 silly pacote range manifest for xtend@^4.0.0 fetched in 84ms
+259 silly resolveWithNewModule xtend@4.0.1 checking installable status
+260 http fetch GET 304 https://registry.npmjs.org/buffer-alloc-unsafe 67ms (from cache)
+261 silly pacote range manifest for buffer-alloc-unsafe@^1.1.0 fetched in 71ms
+262 silly resolveWithNewModule buffer-alloc-unsafe@1.1.0 checking installable status
+263 http fetch GET 304 https://registry.npmjs.org/buffer-fill 71ms (from cache)
+264 silly pacote range manifest for buffer-fill@^1.0.0 fetched in 75ms
+265 silly resolveWithNewModule buffer-fill@1.0.0 checking installable status
+266 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3813ms
+267 timing stage:loadIdealTree Completed in 3862ms
+268 silly currentTree apm-install-dir-119217-13055-1rbu35z.hs6ck
+269 silly idealTree apm-install-dir-119217-13055-1rbu35z.hs6ck
+269 silly idealTree └─┬ platformio-ide-terminal@2.9.1
+269 silly idealTree   ├── ansi-regex@2.1.1
+269 silly idealTree   ├── aproba@1.2.0
+269 silly idealTree   ├── are-we-there-yet@1.1.5
+269 silly idealTree   ├── atom-space-pen-views@2.2.0
+269 silly idealTree   ├── bl@1.2.2
+269 silly idealTree   ├── buffer-alloc-unsafe@1.1.0
+269 silly idealTree   ├── buffer-alloc@1.2.0
+269 silly idealTree   ├── buffer-fill@1.0.0
+269 silly idealTree   ├── chownr@1.1.1
+269 silly idealTree   ├── code-point-at@1.1.0
+269 silly idealTree   ├── console-control-strings@1.1.0
+269 silly idealTree   ├── core-util-is@1.0.2
+269 silly idealTree   ├── d@0.1.1
+269 silly idealTree   ├── decompress-response@3.3.0
+269 silly idealTree   ├── deep-extend@0.6.0
+269 silly idealTree   ├── delegates@1.0.0
+269 silly idealTree   ├── detect-libc@1.0.3
+269 silly idealTree   ├── emissary@1.3.3
+269 silly idealTree   ├── end-of-stream@1.4.1
+269 silly idealTree   ├─┬ es5-ext@0.10.49
+269 silly idealTree   │ ├── d@1.0.0
+269 silly idealTree   │ ├── es6-iterator@2.0.3
+269 silly idealTree   │ └── es6-symbol@3.1.1
+269 silly idealTree   ├── es6-iterator@0.1.3
+269 silly idealTree   ├── es6-symbol@2.0.1
+269 silly idealTree   ├── es6-weak-map@0.1.4
+269 silly idealTree   ├── expand-template@2.0.3
+269 silly idealTree   ├── fs-constants@1.0.0
+269 silly idealTree   ├── fuzzaldrin@2.1.0
+269 silly idealTree   ├── gauge@2.7.4
+269 silly idealTree   ├── github-from-package@0.0.0
+269 silly idealTree   ├── grim@1.5.0
+269 silly idealTree   ├── has-unicode@2.0.1
+269 silly idealTree   ├── inherits@2.0.3
+269 silly idealTree   ├── ini@1.3.5
+269 silly idealTree   ├── is-fullwidth-code-point@1.0.0
+269 silly idealTree   ├── isarray@1.0.0
+269 silly idealTree   ├── jquery@2.1.4
+269 silly idealTree   ├── mimic-response@1.0.1
+269 silly idealTree   ├── minimist@1.2.0
+269 silly idealTree   ├── mixto@1.0.0
+269 silly idealTree   ├─┬ mkdirp@0.5.1
+269 silly idealTree   │ └── minimist@0.0.8
+269 silly idealTree   ├── nan@2.10.0
+269 silly idealTree   ├── napi-build-utils@1.0.1
+269 silly idealTree   ├── next-tick@1.0.0
+269 silly idealTree   ├── node-abi@2.7.1
+269 silly idealTree   ├── node-pty-prebuilt@0.7.6
+269 silly idealTree   ├── noop-logger@0.1.1
+269 silly idealTree   ├── npmlog@4.1.2
+269 silly idealTree   ├── number-is-nan@1.0.1
+269 silly idealTree   ├── object-assign@4.1.1
+269 silly idealTree   ├── once@1.4.0
+269 silly idealTree   ├── os-homedir@1.0.2
+269 silly idealTree   ├── prebuild-install@5.2.5
+269 silly idealTree   ├── process-nextick-args@2.0.0
+269 silly idealTree   ├── property-accessors@1.1.3
+269 silly idealTree   ├── pump@2.0.1
+269 silly idealTree   ├── rc@1.2.8
+269 silly idealTree   ├── readable-stream@2.3.6
+269 silly idealTree   ├── safe-buffer@5.1.2
+269 silly idealTree   ├── semver@5.6.0
+269 silly idealTree   ├── set-blocking@2.0.0
+269 silly idealTree   ├── signal-exit@3.0.2
+269 silly idealTree   ├── simple-concat@1.0.0
+269 silly idealTree   ├── simple-get@2.8.1
+269 silly idealTree   ├── space-pen@5.1.2
+269 silly idealTree   ├── string_decoder@1.1.1
+269 silly idealTree   ├── string-width@1.0.2
+269 silly idealTree   ├── strip-ansi@3.0.1
+269 silly idealTree   ├── strip-json-comments@2.0.1
+269 silly idealTree   ├─┬ tar-fs@1.16.3
+269 silly idealTree   │ └── pump@1.0.3
+269 silly idealTree   ├── tar-stream@1.6.2
+269 silly idealTree   ├── term.js@0.0.7
+269 silly idealTree   ├── to-buffer@1.1.1
+269 silly idealTree   ├── tunnel-agent@0.6.0
+269 silly idealTree   ├─┬ underscore-plus@1.6.8
+269 silly idealTree   │ └── underscore@1.8.3
+269 silly idealTree   ├── underscore@1.9.1
+269 silly idealTree   ├── util-deprecate@1.0.2
+269 silly idealTree   ├── which-pm-runs@1.0.0
+269 silly idealTree   ├── wide-align@1.1.3
+269 silly idealTree   ├── wrappy@1.0.2
+269 silly idealTree   └── xtend@4.0.1
+270 silly install generateActionsToTake
+271 silly diff-trees filtering actions: includeDev false includeProd true includeOpt true
+272 timing stage:generateActionsToTake Completed in 21ms
+273 silly diffTrees action count 86
+274 silly diffTrees add ansi-regex@2.1.1
+275 silly diffTrees add aproba@1.2.0
+276 silly diffTrees add buffer-alloc-unsafe@1.1.0
+277 silly diffTrees add buffer-fill@1.0.0
+278 silly diffTrees add buffer-alloc@1.2.0
+279 silly diffTrees add chownr@1.1.1
+280 silly diffTrees add code-point-at@1.1.0
+281 silly diffTrees add console-control-strings@1.1.0
+282 silly diffTrees add core-util-is@1.0.2
+283 silly diffTrees add deep-extend@0.6.0
+284 silly diffTrees add delegates@1.0.0
+285 silly diffTrees add detect-libc@1.0.3
+286 silly diffTrees add expand-template@2.0.3
+287 silly diffTrees add fs-constants@1.0.0
+288 silly diffTrees add fuzzaldrin@2.1.0
+289 silly diffTrees add github-from-package@0.0.0
+290 silly diffTrees add has-unicode@2.0.1
+291 silly diffTrees add inherits@2.0.3
+292 silly diffTrees add ini@1.3.5
+293 silly diffTrees add isarray@1.0.0
+294 silly diffTrees add jquery@2.1.4
+295 silly diffTrees add mimic-response@1.0.1
+296 silly diffTrees add decompress-response@3.3.0
+297 silly diffTrees add minimist@1.2.0
+298 silly diffTrees add mixto@1.0.0
+299 silly diffTrees add minimist@0.0.8
+300 silly diffTrees add mkdirp@0.5.1
+301 silly diffTrees add nan@2.10.0
+302 silly diffTrees add napi-build-utils@1.0.1
+303 silly diffTrees add next-tick@1.0.0
+304 silly diffTrees add es5-ext@0.10.49
+305 silly diffTrees add d@0.1.1
+306 silly diffTrees add d@1.0.0
+307 silly diffTrees add es6-symbol@3.1.1
+308 silly diffTrees add es6-iterator@2.0.3
+309 silly diffTrees add es6-symbol@2.0.1
+310 silly diffTrees add es6-iterator@0.1.3
+311 silly diffTrees add es6-weak-map@0.1.4
+312 silly diffTrees add noop-logger@0.1.1
+313 silly diffTrees add number-is-nan@1.0.1
+314 silly diffTrees add is-fullwidth-code-point@1.0.0
+315 silly diffTrees add object-assign@4.1.1
+316 silly diffTrees add os-homedir@1.0.2
+317 silly diffTrees add process-nextick-args@2.0.0
+318 silly diffTrees add property-accessors@1.1.3
+319 silly diffTrees add safe-buffer@5.1.2
+320 silly diffTrees add semver@5.6.0
+321 silly diffTrees add node-abi@2.7.1
+322 silly diffTrees add set-blocking@2.0.0
+323 silly diffTrees add signal-exit@3.0.2
+324 silly diffTrees add simple-concat@1.0.0
+325 silly diffTrees add string_decoder@1.1.1
+326 silly diffTrees add strip-ansi@3.0.1
+327 silly diffTrees add string-width@1.0.2
+328 silly diffTrees add strip-json-comments@2.0.1
+329 silly diffTrees add rc@1.2.8
+330 silly diffTrees add to-buffer@1.1.1
+331 silly diffTrees add tunnel-agent@0.6.0
+332 silly diffTrees add underscore@1.8.3
+333 silly diffTrees add underscore-plus@1.6.8
+334 silly diffTrees add emissary@1.3.3
+335 silly diffTrees add grim@1.5.0
+336 silly diffTrees add space-pen@5.1.2
+337 silly diffTrees add util-deprecate@1.0.2
+338 silly diffTrees add readable-stream@2.3.6
+339 silly diffTrees add are-we-there-yet@1.1.5
+340 silly diffTrees add bl@1.2.2
+341 silly diffTrees add which-pm-runs@1.0.0
+342 silly diffTrees add wide-align@1.1.3
+343 silly diffTrees add gauge@2.7.4
+344 silly diffTrees add npmlog@4.1.2
+345 silly diffTrees add wrappy@1.0.2
+346 silly diffTrees add once@1.4.0
+347 silly diffTrees add end-of-stream@1.4.1
+348 silly diffTrees add pump@2.0.1
+349 silly diffTrees add simple-get@2.8.1
+350 silly diffTrees add pump@1.0.3
+351 silly diffTrees add xtend@4.0.1
+352 silly diffTrees add tar-stream@1.6.2
+353 silly diffTrees add tar-fs@1.16.3
+354 silly diffTrees add prebuild-install@5.2.5
+355 silly diffTrees add atom-space-pen-views@2.2.0
+356 silly diffTrees add node-pty-prebuilt@0.7.6
+357 silly diffTrees add term.js@0.0.7
+358 silly diffTrees add underscore@1.9.1
+359 silly diffTrees add platformio-ide-terminal@2.9.1
+360 silly decomposeActions action count 688
+361 silly decomposeActions fetch ansi-regex@2.1.1
+362 silly decomposeActions extract ansi-regex@2.1.1
+363 silly decomposeActions preinstall ansi-regex@2.1.1
+364 silly decomposeActions build ansi-regex@2.1.1
+365 silly decomposeActions install ansi-regex@2.1.1
+366 silly decomposeActions postinstall ansi-regex@2.1.1
+367 silly decomposeActions finalize ansi-regex@2.1.1
+368 silly decomposeActions refresh-package-json ansi-regex@2.1.1
+369 silly decomposeActions fetch aproba@1.2.0
+370 silly decomposeActions extract aproba@1.2.0
+371 silly decomposeActions preinstall aproba@1.2.0
+372 silly decomposeActions build aproba@1.2.0
+373 silly decomposeActions install aproba@1.2.0
+374 silly decomposeActions postinstall aproba@1.2.0
+375 silly decomposeActions finalize aproba@1.2.0
+376 silly decomposeActions refresh-package-json aproba@1.2.0
+377 silly decomposeActions fetch buffer-alloc-unsafe@1.1.0
+378 silly decomposeActions extract buffer-alloc-unsafe@1.1.0
+379 silly decomposeActions preinstall buffer-alloc-unsafe@1.1.0
+380 silly decomposeActions build buffer-alloc-unsafe@1.1.0
+381 silly decomposeActions install buffer-alloc-unsafe@1.1.0
+382 silly decomposeActions postinstall buffer-alloc-unsafe@1.1.0
+383 silly decomposeActions finalize buffer-alloc-unsafe@1.1.0
+384 silly decomposeActions refresh-package-json buffer-alloc-unsafe@1.1.0
+385 silly decomposeActions fetch buffer-fill@1.0.0
+386 silly decomposeActions extract buffer-fill@1.0.0
+387 silly decomposeActions preinstall buffer-fill@1.0.0
+388 silly decomposeActions build buffer-fill@1.0.0
+389 silly decomposeActions install buffer-fill@1.0.0
+390 silly decomposeActions postinstall buffer-fill@1.0.0
+391 silly decomposeActions finalize buffer-fill@1.0.0
+392 silly decomposeActions refresh-package-json buffer-fill@1.0.0
+393 silly decomposeActions fetch buffer-alloc@1.2.0
+394 silly decomposeActions extract buffer-alloc@1.2.0
+395 silly decomposeActions preinstall buffer-alloc@1.2.0
+396 silly decomposeActions build buffer-alloc@1.2.0
+397 silly decomposeActions install buffer-alloc@1.2.0
+398 silly decomposeActions postinstall buffer-alloc@1.2.0
+399 silly decomposeActions finalize buffer-alloc@1.2.0
+400 silly decomposeActions refresh-package-json buffer-alloc@1.2.0
+401 silly decomposeActions fetch chownr@1.1.1
+402 silly decomposeActions extract chownr@1.1.1
+403 silly decomposeActions preinstall chownr@1.1.1
+404 silly decomposeActions build chownr@1.1.1
+405 silly decomposeActions install chownr@1.1.1
+406 silly decomposeActions postinstall chownr@1.1.1
+407 silly decomposeActions finalize chownr@1.1.1
+408 silly decomposeActions refresh-package-json chownr@1.1.1
+409 silly decomposeActions fetch code-point-at@1.1.0
+410 silly decomposeActions extract code-point-at@1.1.0
+411 silly decomposeActions preinstall code-point-at@1.1.0
+412 silly decomposeActions build code-point-at@1.1.0
+413 silly decomposeActions install code-point-at@1.1.0
+414 silly decomposeActions postinstall code-point-at@1.1.0
+415 silly decomposeActions finalize code-point-at@1.1.0
+416 silly decomposeActions refresh-package-json code-point-at@1.1.0
+417 silly decomposeActions fetch console-control-strings@1.1.0
+418 silly decomposeActions extract console-control-strings@1.1.0
+419 silly decomposeActions preinstall console-control-strings@1.1.0
+420 silly decomposeActions build console-control-strings@1.1.0
+421 silly decomposeActions install console-control-strings@1.1.0
+422 silly decomposeActions postinstall console-control-strings@1.1.0
+423 silly decomposeActions finalize console-control-strings@1.1.0
+424 silly decomposeActions refresh-package-json console-control-strings@1.1.0
+425 silly decomposeActions fetch core-util-is@1.0.2
+426 silly decomposeActions extract core-util-is@1.0.2
+427 silly decomposeActions preinstall core-util-is@1.0.2
+428 silly decomposeActions build core-util-is@1.0.2
+429 silly decomposeActions install core-util-is@1.0.2
+430 silly decomposeActions postinstall core-util-is@1.0.2
+431 silly decomposeActions finalize core-util-is@1.0.2
+432 silly decomposeActions refresh-package-json core-util-is@1.0.2
+433 silly decomposeActions fetch deep-extend@0.6.0
+434 silly decomposeActions extract deep-extend@0.6.0
+435 silly decomposeActions preinstall deep-extend@0.6.0
+436 silly decomposeActions build deep-extend@0.6.0
+437 silly decomposeActions install deep-extend@0.6.0
+438 silly decomposeActions postinstall deep-extend@0.6.0
+439 silly decomposeActions finalize deep-extend@0.6.0
+440 silly decomposeActions refresh-package-json deep-extend@0.6.0
+441 silly decomposeActions fetch delegates@1.0.0
+442 silly decomposeActions extract delegates@1.0.0
+443 silly decomposeActions preinstall delegates@1.0.0
+444 silly decomposeActions build delegates@1.0.0
+445 silly decomposeActions install delegates@1.0.0
+446 silly decomposeActions postinstall delegates@1.0.0
+447 silly decomposeActions finalize delegates@1.0.0
+448 silly decomposeActions refresh-package-json delegates@1.0.0
+449 silly decomposeActions fetch detect-libc@1.0.3
+450 silly decomposeActions extract detect-libc@1.0.3
+451 silly decomposeActions preinstall detect-libc@1.0.3
+452 silly decomposeActions build detect-libc@1.0.3
+453 silly decomposeActions install detect-libc@1.0.3
+454 silly decomposeActions postinstall detect-libc@1.0.3
+455 silly decomposeActions finalize detect-libc@1.0.3
+456 silly decomposeActions refresh-package-json detect-libc@1.0.3
+457 silly decomposeActions fetch expand-template@2.0.3
+458 silly decomposeActions extract expand-template@2.0.3
+459 silly decomposeActions preinstall expand-template@2.0.3
+460 silly decomposeActions build expand-template@2.0.3
+461 silly decomposeActions install expand-template@2.0.3
+462 silly decomposeActions postinstall expand-template@2.0.3
+463 silly decomposeActions finalize expand-template@2.0.3
+464 silly decomposeActions refresh-package-json expand-template@2.0.3
+465 silly decomposeActions fetch fs-constants@1.0.0
+466 silly decomposeActions extract fs-constants@1.0.0
+467 silly decomposeActions preinstall fs-constants@1.0.0
+468 silly decomposeActions build fs-constants@1.0.0
+469 silly decomposeActions install fs-constants@1.0.0
+470 silly decomposeActions postinstall fs-constants@1.0.0
+471 silly decomposeActions finalize fs-constants@1.0.0
+472 silly decomposeActions refresh-package-json fs-constants@1.0.0
+473 silly decomposeActions fetch fuzzaldrin@2.1.0
+474 silly decomposeActions extract fuzzaldrin@2.1.0
+475 silly decomposeActions preinstall fuzzaldrin@2.1.0
+476 silly decomposeActions build fuzzaldrin@2.1.0
+477 silly decomposeActions install fuzzaldrin@2.1.0
+478 silly decomposeActions postinstall fuzzaldrin@2.1.0
+479 silly decomposeActions finalize fuzzaldrin@2.1.0
+480 silly decomposeActions refresh-package-json fuzzaldrin@2.1.0
+481 silly decomposeActions fetch github-from-package@0.0.0
+482 silly decomposeActions extract github-from-package@0.0.0
+483 silly decomposeActions preinstall github-from-package@0.0.0
+484 silly decomposeActions build github-from-package@0.0.0
+485 silly decomposeActions install github-from-package@0.0.0
+486 silly decomposeActions postinstall github-from-package@0.0.0
+487 silly decomposeActions finalize github-from-package@0.0.0
+488 silly decomposeActions refresh-package-json github-from-package@0.0.0
+489 silly decomposeActions fetch has-unicode@2.0.1
+490 silly decomposeActions extract has-unicode@2.0.1
+491 silly decomposeActions preinstall has-unicode@2.0.1
+492 silly decomposeActions build has-unicode@2.0.1
+493 silly decomposeActions install has-unicode@2.0.1
+494 silly decomposeActions postinstall has-unicode@2.0.1
+495 silly decomposeActions finalize has-unicode@2.0.1
+496 silly decomposeActions refresh-package-json has-unicode@2.0.1
+497 silly decomposeActions fetch inherits@2.0.3
+498 silly decomposeActions extract inherits@2.0.3
+499 silly decomposeActions preinstall inherits@2.0.3
+500 silly decomposeActions build inherits@2.0.3
+501 silly decomposeActions install inherits@2.0.3
+502 silly decomposeActions postinstall inherits@2.0.3
+503 silly decomposeActions finalize inherits@2.0.3
+504 silly decomposeActions refresh-package-json inherits@2.0.3
+505 silly decomposeActions fetch ini@1.3.5
+506 silly decomposeActions extract ini@1.3.5
+507 silly decomposeActions preinstall ini@1.3.5
+508 silly decomposeActions build ini@1.3.5
+509 silly decomposeActions install ini@1.3.5
+510 silly decomposeActions postinstall ini@1.3.5
+511 silly decomposeActions finalize ini@1.3.5
+512 silly decomposeActions refresh-package-json ini@1.3.5
+513 silly decomposeActions fetch isarray@1.0.0
+514 silly decomposeActions extract isarray@1.0.0
+515 silly decomposeActions preinstall isarray@1.0.0
+516 silly decomposeActions build isarray@1.0.0
+517 silly decomposeActions install isarray@1.0.0
+518 silly decomposeActions postinstall isarray@1.0.0
+519 silly decomposeActions finalize isarray@1.0.0
+520 silly decomposeActions refresh-package-json isarray@1.0.0
+521 silly decomposeActions fetch jquery@2.1.4
+522 silly decomposeActions extract jquery@2.1.4
+523 silly decomposeActions preinstall jquery@2.1.4
+524 silly decomposeActions build jquery@2.1.4
+525 silly decomposeActions install jquery@2.1.4
+526 silly decomposeActions postinstall jquery@2.1.4
+527 silly decomposeActions finalize jquery@2.1.4
+528 silly decomposeActions refresh-package-json jquery@2.1.4
+529 silly decomposeActions fetch mimic-response@1.0.1
+530 silly decomposeActions extract mimic-response@1.0.1
+531 silly decomposeActions preinstall mimic-response@1.0.1
+532 silly decomposeActions build mimic-response@1.0.1
+533 silly decomposeActions install mimic-response@1.0.1
+534 silly decomposeActions postinstall mimic-response@1.0.1
+535 silly decomposeActions finalize mimic-response@1.0.1
+536 silly decomposeActions refresh-package-json mimic-response@1.0.1
+537 silly decomposeActions fetch decompress-response@3.3.0
+538 silly decomposeActions extract decompress-response@3.3.0
+539 silly decomposeActions preinstall decompress-response@3.3.0
+540 silly decomposeActions build decompress-response@3.3.0
+541 silly decomposeActions install decompress-response@3.3.0
+542 silly decomposeActions postinstall decompress-response@3.3.0
+543 silly decomposeActions finalize decompress-response@3.3.0
+544 silly decomposeActions refresh-package-json decompress-response@3.3.0
+545 silly decomposeActions fetch minimist@1.2.0
+546 silly decomposeActions extract minimist@1.2.0
+547 silly decomposeActions preinstall minimist@1.2.0
+548 silly decomposeActions build minimist@1.2.0
+549 silly decomposeActions install minimist@1.2.0
+550 silly decomposeActions postinstall minimist@1.2.0
+551 silly decomposeActions finalize minimist@1.2.0
+552 silly decomposeActions refresh-package-json minimist@1.2.0
+553 silly decomposeActions fetch mixto@1.0.0
+554 silly decomposeActions extract mixto@1.0.0
+555 silly decomposeActions preinstall mixto@1.0.0
+556 silly decomposeActions build mixto@1.0.0
+557 silly decomposeActions install mixto@1.0.0
+558 silly decomposeActions postinstall mixto@1.0.0
+559 silly decomposeActions finalize mixto@1.0.0
+560 silly decomposeActions refresh-package-json mixto@1.0.0
+561 silly decomposeActions fetch minimist@0.0.8
+562 silly decomposeActions extract minimist@0.0.8
+563 silly decomposeActions preinstall minimist@0.0.8
+564 silly decomposeActions build minimist@0.0.8
+565 silly decomposeActions install minimist@0.0.8
+566 silly decomposeActions postinstall minimist@0.0.8
+567 silly decomposeActions finalize minimist@0.0.8
+568 silly decomposeActions refresh-package-json minimist@0.0.8
+569 silly decomposeActions fetch mkdirp@0.5.1
+570 silly decomposeActions extract mkdirp@0.5.1
+571 silly decomposeActions preinstall mkdirp@0.5.1
+572 silly decomposeActions build mkdirp@0.5.1
+573 silly decomposeActions install mkdirp@0.5.1
+574 silly decomposeActions postinstall mkdirp@0.5.1
+575 silly decomposeActions finalize mkdirp@0.5.1
+576 silly decomposeActions refresh-package-json mkdirp@0.5.1
+577 silly decomposeActions fetch nan@2.10.0
+578 silly decomposeActions extract nan@2.10.0
+579 silly decomposeActions preinstall nan@2.10.0
+580 silly decomposeActions build nan@2.10.0
+581 silly decomposeActions install nan@2.10.0
+582 silly decomposeActions postinstall nan@2.10.0
+583 silly decomposeActions finalize nan@2.10.0
+584 silly decomposeActions refresh-package-json nan@2.10.0
+585 silly decomposeActions fetch napi-build-utils@1.0.1
+586 silly decomposeActions extract napi-build-utils@1.0.1
+587 silly decomposeActions preinstall napi-build-utils@1.0.1
+588 silly decomposeActions build napi-build-utils@1.0.1
+589 silly decomposeActions install napi-build-utils@1.0.1
+590 silly decomposeActions postinstall napi-build-utils@1.0.1
+591 silly decomposeActions finalize napi-build-utils@1.0.1
+592 silly decomposeActions refresh-package-json napi-build-utils@1.0.1
+593 silly decomposeActions fetch next-tick@1.0.0
+594 silly decomposeActions extract next-tick@1.0.0
+595 silly decomposeActions preinstall next-tick@1.0.0
+596 silly decomposeActions build next-tick@1.0.0
+597 silly decomposeActions install next-tick@1.0.0
+598 silly decomposeActions postinstall next-tick@1.0.0
+599 silly decomposeActions finalize next-tick@1.0.0
+600 silly decomposeActions refresh-package-json next-tick@1.0.0
+601 silly decomposeActions fetch es5-ext@0.10.49
+602 silly decomposeActions extract es5-ext@0.10.49
+603 silly decomposeActions preinstall es5-ext@0.10.49
+604 silly decomposeActions build es5-ext@0.10.49
+605 silly decomposeActions install es5-ext@0.10.49
+606 silly decomposeActions postinstall es5-ext@0.10.49
+607 silly decomposeActions finalize es5-ext@0.10.49
+608 silly decomposeActions refresh-package-json es5-ext@0.10.49
+609 silly decomposeActions fetch d@0.1.1
+610 silly decomposeActions extract d@0.1.1
+611 silly decomposeActions preinstall d@0.1.1
+612 silly decomposeActions build d@0.1.1
+613 silly decomposeActions install d@0.1.1
+614 silly decomposeActions postinstall d@0.1.1
+615 silly decomposeActions finalize d@0.1.1
+616 silly decomposeActions refresh-package-json d@0.1.1
+617 silly decomposeActions fetch d@1.0.0
+618 silly decomposeActions extract d@1.0.0
+619 silly decomposeActions preinstall d@1.0.0
+620 silly decomposeActions build d@1.0.0
+621 silly decomposeActions install d@1.0.0
+622 silly decomposeActions postinstall d@1.0.0
+623 silly decomposeActions finalize d@1.0.0
+624 silly decomposeActions refresh-package-json d@1.0.0
+625 silly decomposeActions fetch es6-symbol@3.1.1
+626 silly decomposeActions extract es6-symbol@3.1.1
+627 silly decomposeActions preinstall es6-symbol@3.1.1
+628 silly decomposeActions build es6-symbol@3.1.1
+629 silly decomposeActions install es6-symbol@3.1.1
+630 silly decomposeActions postinstall es6-symbol@3.1.1
+631 silly decomposeActions finalize es6-symbol@3.1.1
+632 silly decomposeActions refresh-package-json es6-symbol@3.1.1
+633 silly decomposeActions fetch es6-iterator@2.0.3
+634 silly decomposeActions extract es6-iterator@2.0.3
+635 silly decomposeActions preinstall es6-iterator@2.0.3
+636 silly decomposeActions build es6-iterator@2.0.3
+637 silly decomposeActions install es6-iterator@2.0.3
+638 silly decomposeActions postinstall es6-iterator@2.0.3
+639 silly decomposeActions finalize es6-iterator@2.0.3
+640 silly decomposeActions refresh-package-json es6-iterator@2.0.3
+641 silly decomposeActions fetch es6-symbol@2.0.1
+642 silly decomposeActions extract es6-symbol@2.0.1
+643 silly decomposeActions preinstall es6-symbol@2.0.1
+644 silly decomposeActions build es6-symbol@2.0.1
+645 silly decomposeActions install es6-symbol@2.0.1
+646 silly decomposeActions postinstall es6-symbol@2.0.1
+647 silly decomposeActions finalize es6-symbol@2.0.1
+648 silly decomposeActions refresh-package-json es6-symbol@2.0.1
+649 silly decomposeActions fetch es6-iterator@0.1.3
+650 silly decomposeActions extract es6-iterator@0.1.3
+651 silly decomposeActions preinstall es6-iterator@0.1.3
+652 silly decomposeActions build es6-iterator@0.1.3
+653 silly decomposeActions install es6-iterator@0.1.3
+654 silly decomposeActions postinstall es6-iterator@0.1.3
+655 silly decomposeActions finalize es6-iterator@0.1.3
+656 silly decomposeActions refresh-package-json es6-iterator@0.1.3
+657 silly decomposeActions fetch es6-weak-map@0.1.4
+658 silly decomposeActions extract es6-weak-map@0.1.4
+659 silly decomposeActions preinstall es6-weak-map@0.1.4
+660 silly decomposeActions build es6-weak-map@0.1.4
+661 silly decomposeActions install es6-weak-map@0.1.4
+662 silly decomposeActions postinstall es6-weak-map@0.1.4
+663 silly decomposeActions finalize es6-weak-map@0.1.4
+664 silly decomposeActions refresh-package-json es6-weak-map@0.1.4
+665 silly decomposeActions fetch noop-logger@0.1.1
+666 silly decomposeActions extract noop-logger@0.1.1
+667 silly decomposeActions preinstall noop-logger@0.1.1
+668 silly decomposeActions build noop-logger@0.1.1
+669 silly decomposeActions install noop-logger@0.1.1
+670 silly decomposeActions postinstall noop-logger@0.1.1
+671 silly decomposeActions finalize noop-logger@0.1.1
+672 silly decomposeActions refresh-package-json noop-logger@0.1.1
+673 silly decomposeActions fetch number-is-nan@1.0.1
+674 silly decomposeActions extract number-is-nan@1.0.1
+675 silly decomposeActions preinstall number-is-nan@1.0.1
+676 silly decomposeActions build number-is-nan@1.0.1
+677 silly decomposeActions install number-is-nan@1.0.1
+678 silly decomposeActions postinstall number-is-nan@1.0.1
+679 silly decomposeActions finalize number-is-nan@1.0.1
+680 silly decomposeActions refresh-package-json number-is-nan@1.0.1
+681 silly decomposeActions fetch is-fullwidth-code-point@1.0.0
+682 silly decomposeActions extract is-fullwidth-code-point@1.0.0
+683 silly decomposeActions preinstall is-fullwidth-code-point@1.0.0
+684 silly decomposeActions build is-fullwidth-code-point@1.0.0
+685 silly decomposeActions install is-fullwidth-code-point@1.0.0
+686 silly decomposeActions postinstall is-fullwidth-code-point@1.0.0
+687 silly decomposeActions finalize is-fullwidth-code-point@1.0.0
+688 silly decomposeActions refresh-package-json is-fullwidth-code-point@1.0.0
+689 silly decomposeActions fetch object-assign@4.1.1
+690 silly decomposeActions extract object-assign@4.1.1
+691 silly decomposeActions preinstall object-assign@4.1.1
+692 silly decomposeActions build object-assign@4.1.1
+693 silly decomposeActions install object-assign@4.1.1
+694 silly decomposeActions postinstall object-assign@4.1.1
+695 silly decomposeActions finalize object-assign@4.1.1
+696 silly decomposeActions refresh-package-json object-assign@4.1.1
+697 silly decomposeActions fetch os-homedir@1.0.2
+698 silly decomposeActions extract os-homedir@1.0.2
+699 silly decomposeActions preinstall os-homedir@1.0.2
+700 silly decomposeActions build os-homedir@1.0.2
+701 silly decomposeActions install os-homedir@1.0.2
+702 silly decomposeActions postinstall os-homedir@1.0.2
+703 silly decomposeActions finalize os-homedir@1.0.2
+704 silly decomposeActions refresh-package-json os-homedir@1.0.2
+705 silly decomposeActions fetch process-nextick-args@2.0.0
+706 silly decomposeActions extract process-nextick-args@2.0.0
+707 silly decomposeActions preinstall process-nextick-args@2.0.0
+708 silly decomposeActions build process-nextick-args@2.0.0
+709 silly decomposeActions install process-nextick-args@2.0.0
+710 silly decomposeActions postinstall process-nextick-args@2.0.0
+711 silly decomposeActions finalize process-nextick-args@2.0.0
+712 silly decomposeActions refresh-package-json process-nextick-args@2.0.0
+713 silly decomposeActions fetch property-accessors@1.1.3
+714 silly decomposeActions extract property-accessors@1.1.3
+715 silly decomposeActions preinstall property-accessors@1.1.3
+716 silly decomposeActions build property-accessors@1.1.3
+717 silly decomposeActions install property-accessors@1.1.3
+718 silly decomposeActions postinstall property-accessors@1.1.3
+719 silly decomposeActions finalize property-accessors@1.1.3
+720 silly decomposeActions refresh-package-json property-accessors@1.1.3
+721 silly decomposeActions fetch safe-buffer@5.1.2
+722 silly decomposeActions extract safe-buffer@5.1.2
+723 silly decomposeActions preinstall safe-buffer@5.1.2
+724 silly decomposeActions build safe-buffer@5.1.2
+725 silly decomposeActions install safe-buffer@5.1.2
+726 silly decomposeActions postinstall safe-buffer@5.1.2
+727 silly decomposeActions finalize safe-buffer@5.1.2
+728 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+729 silly decomposeActions fetch semver@5.6.0
+730 silly decomposeActions extract semver@5.6.0
+731 silly decomposeActions preinstall semver@5.6.0
+732 silly decomposeActions build semver@5.6.0
+733 silly decomposeActions install semver@5.6.0
+734 silly decomposeActions postinstall semver@5.6.0
+735 silly decomposeActions finalize semver@5.6.0
+736 silly decomposeActions refresh-package-json semver@5.6.0
+737 silly decomposeActions fetch node-abi@2.7.1
+738 silly decomposeActions extract node-abi@2.7.1
+739 silly decomposeActions preinstall node-abi@2.7.1
+740 silly decomposeActions build node-abi@2.7.1
+741 silly decomposeActions install node-abi@2.7.1
+742 silly decomposeActions postinstall node-abi@2.7.1
+743 silly decomposeActions finalize node-abi@2.7.1
+744 silly decomposeActions refresh-package-json node-abi@2.7.1
+745 silly decomposeActions fetch set-blocking@2.0.0
+746 silly decomposeActions extract set-blocking@2.0.0
+747 silly decomposeActions preinstall set-blocking@2.0.0
+748 silly decomposeActions build set-blocking@2.0.0
+749 silly decomposeActions install set-blocking@2.0.0
+750 silly decomposeActions postinstall set-blocking@2.0.0
+751 silly decomposeActions finalize set-blocking@2.0.0
+752 silly decomposeActions refresh-package-json set-blocking@2.0.0
+753 silly decomposeActions fetch signal-exit@3.0.2
+754 silly decomposeActions extract signal-exit@3.0.2
+755 silly decomposeActions preinstall signal-exit@3.0.2
+756 silly decomposeActions build signal-exit@3.0.2
+757 silly decomposeActions install signal-exit@3.0.2
+758 silly decomposeActions postinstall signal-exit@3.0.2
+759 silly decomposeActions finalize signal-exit@3.0.2
+760 silly decomposeActions refresh-package-json signal-exit@3.0.2
+761 silly decomposeActions fetch simple-concat@1.0.0
+762 silly decomposeActions extract simple-concat@1.0.0
+763 silly decomposeActions preinstall simple-concat@1.0.0
+764 silly decomposeActions build simple-concat@1.0.0
+765 silly decomposeActions install simple-concat@1.0.0
+766 silly decomposeActions postinstall simple-concat@1.0.0
+767 silly decomposeActions finalize simple-concat@1.0.0
+768 silly decomposeActions refresh-package-json simple-concat@1.0.0
+769 silly decomposeActions fetch string_decoder@1.1.1
+770 silly decomposeActions extract string_decoder@1.1.1
+771 silly decomposeActions preinstall string_decoder@1.1.1
+772 silly decomposeActions build string_decoder@1.1.1
+773 silly decomposeActions install string_decoder@1.1.1
+774 silly decomposeActions postinstall string_decoder@1.1.1
+775 silly decomposeActions finalize string_decoder@1.1.1
+776 silly decomposeActions refresh-package-json string_decoder@1.1.1
+777 silly decomposeActions fetch strip-ansi@3.0.1
+778 silly decomposeActions extract strip-ansi@3.0.1
+779 silly decomposeActions preinstall strip-ansi@3.0.1
+780 silly decomposeActions build strip-ansi@3.0.1
+781 silly decomposeActions install strip-ansi@3.0.1
+782 silly decomposeActions postinstall strip-ansi@3.0.1
+783 silly decomposeActions finalize strip-ansi@3.0.1
+784 silly decomposeActions refresh-package-json strip-ansi@3.0.1
+785 silly decomposeActions fetch string-width@1.0.2
+786 silly decomposeActions extract string-width@1.0.2
+787 silly decomposeActions preinstall string-width@1.0.2
+788 silly decomposeActions build string-width@1.0.2
+789 silly decomposeActions install string-width@1.0.2
+790 silly decomposeActions postinstall string-width@1.0.2
+791 silly decomposeActions finalize string-width@1.0.2
+792 silly decomposeActions refresh-package-json string-width@1.0.2
+793 silly decomposeActions fetch strip-json-comments@2.0.1
+794 silly decomposeActions extract strip-json-comments@2.0.1
+795 silly decomposeActions preinstall strip-json-comments@2.0.1
+796 silly decomposeActions build strip-json-comments@2.0.1
+797 silly decomposeActions install strip-json-comments@2.0.1
+798 silly decomposeActions postinstall strip-json-comments@2.0.1
+799 silly decomposeActions finalize strip-json-comments@2.0.1
+800 silly decomposeActions refresh-package-json strip-json-comments@2.0.1
+801 silly decomposeActions fetch rc@1.2.8
+802 silly decomposeActions extract rc@1.2.8
+803 silly decomposeActions preinstall rc@1.2.8
+804 silly decomposeActions build rc@1.2.8
+805 silly decomposeActions install rc@1.2.8
+806 silly decomposeActions postinstall rc@1.2.8
+807 silly decomposeActions finalize rc@1.2.8
+808 silly decomposeActions refresh-package-json rc@1.2.8
+809 silly decomposeActions fetch to-buffer@1.1.1
+810 silly decomposeActions extract to-buffer@1.1.1
+811 silly decomposeActions preinstall to-buffer@1.1.1
+812 silly decomposeActions build to-buffer@1.1.1
+813 silly decomposeActions install to-buffer@1.1.1
+814 silly decomposeActions postinstall to-buffer@1.1.1
+815 silly decomposeActions finalize to-buffer@1.1.1
+816 silly decomposeActions refresh-package-json to-buffer@1.1.1
+817 silly decomposeActions fetch tunnel-agent@0.6.0
+818 silly decomposeActions extract tunnel-agent@0.6.0
+819 silly decomposeActions preinstall tunnel-agent@0.6.0
+820 silly decomposeActions build tunnel-agent@0.6.0
+821 silly decomposeActions install tunnel-agent@0.6.0
+822 silly decomposeActions postinstall tunnel-agent@0.6.0
+823 silly decomposeActions finalize tunnel-agent@0.6.0
+824 silly decomposeActions refresh-package-json tunnel-agent@0.6.0
+825 silly decomposeActions fetch underscore@1.8.3
+826 silly decomposeActions extract underscore@1.8.3
+827 silly decomposeActions preinstall underscore@1.8.3
+828 silly decomposeActions build underscore@1.8.3
+829 silly decomposeActions install underscore@1.8.3
+830 silly decomposeActions postinstall underscore@1.8.3
+831 silly decomposeActions finalize underscore@1.8.3
+832 silly decomposeActions refresh-package-json underscore@1.8.3
+833 silly decomposeActions fetch underscore-plus@1.6.8
+834 silly decomposeActions extract underscore-plus@1.6.8
+835 silly decomposeActions preinstall underscore-plus@1.6.8
+836 silly decomposeActions build underscore-plus@1.6.8
+837 silly decomposeActions install underscore-plus@1.6.8
+838 silly decomposeActions postinstall underscore-plus@1.6.8
+839 silly decomposeActions finalize underscore-plus@1.6.8
+840 silly decomposeActions refresh-package-json underscore-plus@1.6.8
+841 silly decomposeActions fetch emissary@1.3.3
+842 silly decomposeActions extract emissary@1.3.3
+843 silly decomposeActions preinstall emissary@1.3.3
+844 silly decomposeActions build emissary@1.3.3
+845 silly decomposeActions install emissary@1.3.3
+846 silly decomposeActions postinstall emissary@1.3.3
+847 silly decomposeActions finalize emissary@1.3.3
+848 silly decomposeActions refresh-package-json emissary@1.3.3
+849 silly decomposeActions fetch grim@1.5.0
+850 silly decomposeActions extract grim@1.5.0
+851 silly decomposeActions preinstall grim@1.5.0
+852 silly decomposeActions build grim@1.5.0
+853 silly decomposeActions install grim@1.5.0
+854 silly decomposeActions postinstall grim@1.5.0
+855 silly decomposeActions finalize grim@1.5.0
+856 silly decomposeActions refresh-package-json grim@1.5.0
+857 silly decomposeActions fetch space-pen@5.1.2
+858 silly decomposeActions extract space-pen@5.1.2
+859 silly decomposeActions preinstall space-pen@5.1.2
+860 silly decomposeActions build space-pen@5.1.2
+861 silly decomposeActions install space-pen@5.1.2
+862 silly decomposeActions postinstall space-pen@5.1.2
+863 silly decomposeActions finalize space-pen@5.1.2
+864 silly decomposeActions refresh-package-json space-pen@5.1.2
+865 silly decomposeActions fetch util-deprecate@1.0.2
+866 silly decomposeActions extract util-deprecate@1.0.2
+867 silly decomposeActions preinstall util-deprecate@1.0.2
+868 silly decomposeActions build util-deprecate@1.0.2
+869 silly decomposeActions install util-deprecate@1.0.2
+870 silly decomposeActions postinstall util-deprecate@1.0.2
+871 silly decomposeActions finalize util-deprecate@1.0.2
+872 silly decomposeActions refresh-package-json util-deprecate@1.0.2
+873 silly decomposeActions fetch readable-stream@2.3.6
+874 silly decomposeActions extract readable-stream@2.3.6
+875 silly decomposeActions preinstall readable-stream@2.3.6
+876 silly decomposeActions build readable-stream@2.3.6
+877 silly decomposeActions install readable-stream@2.3.6
+878 silly decomposeActions postinstall readable-stream@2.3.6
+879 silly decomposeActions finalize readable-stream@2.3.6
+880 silly decomposeActions refresh-package-json readable-stream@2.3.6
+881 silly decomposeActions fetch are-we-there-yet@1.1.5
+882 silly decomposeActions extract are-we-there-yet@1.1.5
+883 silly decomposeActions preinstall are-we-there-yet@1.1.5
+884 silly decomposeActions build are-we-there-yet@1.1.5
+885 silly decomposeActions install are-we-there-yet@1.1.5
+886 silly decomposeActions postinstall are-we-there-yet@1.1.5
+887 silly decomposeActions finalize are-we-there-yet@1.1.5
+888 silly decomposeActions refresh-package-json are-we-there-yet@1.1.5
+889 silly decomposeActions fetch bl@1.2.2
+890 silly decomposeActions extract bl@1.2.2
+891 silly decomposeActions preinstall bl@1.2.2
+892 silly decomposeActions build bl@1.2.2
+893 silly decomposeActions install bl@1.2.2
+894 silly decomposeActions postinstall bl@1.2.2
+895 silly decomposeActions finalize bl@1.2.2
+896 silly decomposeActions refresh-package-json bl@1.2.2
+897 silly decomposeActions fetch which-pm-runs@1.0.0
+898 silly decomposeActions extract which-pm-runs@1.0.0
+899 silly decomposeActions preinstall which-pm-runs@1.0.0
+900 silly decomposeActions build which-pm-runs@1.0.0
+901 silly decomposeActions install which-pm-runs@1.0.0
+902 silly decomposeActions postinstall which-pm-runs@1.0.0
+903 silly decomposeActions finalize which-pm-runs@1.0.0
+904 silly decomposeActions refresh-package-json which-pm-runs@1.0.0
+905 silly decomposeActions fetch wide-align@1.1.3
+906 silly decomposeActions extract wide-align@1.1.3
+907 silly decomposeActions preinstall wide-align@1.1.3
+908 silly decomposeActions build wide-align@1.1.3
+909 silly decomposeActions install wide-align@1.1.3
+910 silly decomposeActions postinstall wide-align@1.1.3
+911 silly decomposeActions finalize wide-align@1.1.3
+912 silly decomposeActions refresh-package-json wide-align@1.1.3
+913 silly decomposeActions fetch gauge@2.7.4
+914 silly decomposeActions extract gauge@2.7.4
+915 silly decomposeActions preinstall gauge@2.7.4
+916 silly decomposeActions build gauge@2.7.4
+917 silly decomposeActions install gauge@2.7.4
+918 silly decomposeActions postinstall gauge@2.7.4
+919 silly decomposeActions finalize gauge@2.7.4
+920 silly decomposeActions refresh-package-json gauge@2.7.4
+921 silly decomposeActions fetch npmlog@4.1.2
+922 silly decomposeActions extract npmlog@4.1.2
+923 silly decomposeActions preinstall npmlog@4.1.2
+924 silly decomposeActions build npmlog@4.1.2
+925 silly decomposeActions install npmlog@4.1.2
+926 silly decomposeActions postinstall npmlog@4.1.2
+927 silly decomposeActions finalize npmlog@4.1.2
+928 silly decomposeActions refresh-package-json npmlog@4.1.2
+929 silly decomposeActions fetch wrappy@1.0.2
+930 silly decomposeActions extract wrappy@1.0.2
+931 silly decomposeActions preinstall wrappy@1.0.2
+932 silly decomposeActions build wrappy@1.0.2
+933 silly decomposeActions install wrappy@1.0.2
+934 silly decomposeActions postinstall wrappy@1.0.2
+935 silly decomposeActions finalize wrappy@1.0.2
+936 silly decomposeActions refresh-package-json wrappy@1.0.2
+937 silly decomposeActions fetch once@1.4.0
+938 silly decomposeActions extract once@1.4.0
+939 silly decomposeActions preinstall once@1.4.0
+940 silly decomposeActions build once@1.4.0
+941 silly decomposeActions install once@1.4.0
+942 silly decomposeActions postinstall once@1.4.0
+943 silly decomposeActions finalize once@1.4.0
+944 silly decomposeActions refresh-package-json once@1.4.0
+945 silly decomposeActions fetch end-of-stream@1.4.1
+946 silly decomposeActions extract end-of-stream@1.4.1
+947 silly decomposeActions preinstall end-of-stream@1.4.1
+948 silly decomposeActions build end-of-stream@1.4.1
+949 silly decomposeActions install end-of-stream@1.4.1
+950 silly decomposeActions postinstall end-of-stream@1.4.1
+951 silly decomposeActions finalize end-of-stream@1.4.1
+952 silly decomposeActions refresh-package-json end-of-stream@1.4.1
+953 silly decomposeActions fetch pump@2.0.1
+954 silly decomposeActions extract pump@2.0.1
+955 silly decomposeActions preinstall pump@2.0.1
+956 silly decomposeActions build pump@2.0.1
+957 silly decomposeActions install pump@2.0.1
+958 silly decomposeActions postinstall pump@2.0.1
+959 silly decomposeActions finalize pump@2.0.1
+960 silly decomposeActions refresh-package-json pump@2.0.1
+961 silly decomposeActions fetch simple-get@2.8.1
+962 silly decomposeActions extract simple-get@2.8.1
+963 silly decomposeActions preinstall simple-get@2.8.1
+964 silly decomposeActions build simple-get@2.8.1
+965 silly decomposeActions install simple-get@2.8.1
+966 silly decomposeActions postinstall simple-get@2.8.1
+967 silly decomposeActions finalize simple-get@2.8.1
+968 silly decomposeActions refresh-package-json simple-get@2.8.1
+969 silly decomposeActions fetch pump@1.0.3
+970 silly decomposeActions extract pump@1.0.3
+971 silly decomposeActions preinstall pump@1.0.3
+972 silly decomposeActions build pump@1.0.3
+973 silly decomposeActions install pump@1.0.3
+974 silly decomposeActions postinstall pump@1.0.3
+975 silly decomposeActions finalize pump@1.0.3
+976 silly decomposeActions refresh-package-json pump@1.0.3
+977 silly decomposeActions fetch xtend@4.0.1
+978 silly decomposeActions extract xtend@4.0.1
+979 silly decomposeActions preinstall xtend@4.0.1
+980 silly decomposeActions build xtend@4.0.1
+981 silly decomposeActions install xtend@4.0.1
+982 silly decomposeActions postinstall xtend@4.0.1
+983 silly decomposeActions finalize xtend@4.0.1
+984 silly decomposeActions refresh-package-json xtend@4.0.1
+985 silly decomposeActions fetch tar-stream@1.6.2
+986 silly decomposeActions extract tar-stream@1.6.2
+987 silly decomposeActions preinstall tar-stream@1.6.2
+988 silly decomposeActions build tar-stream@1.6.2
+989 silly decomposeActions install tar-stream@1.6.2
+990 silly decomposeActions postinstall tar-stream@1.6.2
+991 silly decomposeActions finalize tar-stream@1.6.2
+992 silly decomposeActions refresh-package-json tar-stream@1.6.2
+993 silly decomposeActions fetch tar-fs@1.16.3
+994 silly decomposeActions extract tar-fs@1.16.3
+995 silly decomposeActions preinstall tar-fs@1.16.3
+996 silly decomposeActions build tar-fs@1.16.3
+997 silly decomposeActions install tar-fs@1.16.3
+998 silly decomposeActions postinstall tar-fs@1.16.3
+999 silly decomposeActions finalize tar-fs@1.16.3
+1000 silly decomposeActions refresh-package-json tar-fs@1.16.3
+1001 silly decomposeActions fetch prebuild-install@5.2.5
+1002 silly decomposeActions extract prebuild-install@5.2.5
+1003 silly decomposeActions preinstall prebuild-install@5.2.5
+1004 silly decomposeActions build prebuild-install@5.2.5
+1005 silly decomposeActions install prebuild-install@5.2.5
+1006 silly decomposeActions postinstall prebuild-install@5.2.5
+1007 silly decomposeActions finalize prebuild-install@5.2.5
+1008 silly decomposeActions refresh-package-json prebuild-install@5.2.5
+1009 silly decomposeActions fetch atom-space-pen-views@2.2.0
+1010 silly decomposeActions extract atom-space-pen-views@2.2.0
+1011 silly decomposeActions preinstall atom-space-pen-views@2.2.0
+1012 silly decomposeActions build atom-space-pen-views@2.2.0
+1013 silly decomposeActions install atom-space-pen-views@2.2.0
+1014 silly decomposeActions postinstall atom-space-pen-views@2.2.0
+1015 silly decomposeActions finalize atom-space-pen-views@2.2.0
+1016 silly decomposeActions refresh-package-json atom-space-pen-views@2.2.0
+1017 silly decomposeActions fetch node-pty-prebuilt@0.7.6
+1018 silly decomposeActions extract node-pty-prebuilt@0.7.6
+1019 silly decomposeActions preinstall node-pty-prebuilt@0.7.6
+1020 silly decomposeActions build node-pty-prebuilt@0.7.6
+1021 silly decomposeActions install node-pty-prebuilt@0.7.6
+1022 silly decomposeActions postinstall node-pty-prebuilt@0.7.6
+1023 silly decomposeActions finalize node-pty-prebuilt@0.7.6
+1024 silly decomposeActions refresh-package-json node-pty-prebuilt@0.7.6
+1025 silly decomposeActions fetch term.js@0.0.7
+1026 silly decomposeActions extract term.js@0.0.7
+1027 silly decomposeActions preinstall term.js@0.0.7
+1028 silly decomposeActions build term.js@0.0.7
+1029 silly decomposeActions install term.js@0.0.7
+1030 silly decomposeActions postinstall term.js@0.0.7
+1031 silly decomposeActions finalize term.js@0.0.7
+1032 silly decomposeActions refresh-package-json term.js@0.0.7
+1033 silly decomposeActions fetch underscore@1.9.1
+1034 silly decomposeActions extract underscore@1.9.1
+1035 silly decomposeActions preinstall underscore@1.9.1
+1036 silly decomposeActions build underscore@1.9.1
+1037 silly decomposeActions install underscore@1.9.1
+1038 silly decomposeActions postinstall underscore@1.9.1
+1039 silly decomposeActions finalize underscore@1.9.1
+1040 silly decomposeActions refresh-package-json underscore@1.9.1
+1041 silly decomposeActions fetch platformio-ide-terminal@2.9.1
+1042 silly decomposeActions extract platformio-ide-terminal@2.9.1
+1043 silly decomposeActions preinstall platformio-ide-terminal@2.9.1
+1044 silly decomposeActions build platformio-ide-terminal@2.9.1
+1045 silly decomposeActions install platformio-ide-terminal@2.9.1
+1046 silly decomposeActions postinstall platformio-ide-terminal@2.9.1
+1047 silly decomposeActions finalize platformio-ide-terminal@2.9.1
+1048 silly decomposeActions refresh-package-json platformio-ide-terminal@2.9.1
+1049 silly install executeActions
+1050 silly doSerial global-install 688
+1051 verbose correctMkdir /home/felipe/.atom/.apm/_locks correctMkdir not in flight; initializing
+1052 timing audit compress Completed in 2ms
+1053 info audit Submitting payload of 5775bytes
+1054 verbose lock using /home/felipe/.atom/.apm/_locks/staging-9679dfb00e853fc9.lock for /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging
+1055 silly doParallel extract 86
+1056 silly extract ansi-regex@2.1.1
+1057 silly extract aproba@1.2.0
+1058 silly extract buffer-alloc-unsafe@1.1.0
+1059 silly extract buffer-fill@1.0.0
+1060 silly extract buffer-alloc@1.2.0
+1061 silly extract chownr@1.1.1
+1062 silly extract code-point-at@1.1.0
+1063 silly extract console-control-strings@1.1.0
+1064 silly extract core-util-is@1.0.2
+1065 silly extract deep-extend@0.6.0
+1066 silly extract delegates@1.0.0
+1067 silly extract detect-libc@1.0.3
+1068 silly extract expand-template@2.0.3
+1069 silly extract fs-constants@1.0.0
+1070 silly extract fuzzaldrin@2.1.0
+1071 silly extract github-from-package@0.0.0
+1072 silly extract has-unicode@2.0.1
+1073 silly extract inherits@2.0.3
+1074 silly extract ini@1.3.5
+1075 silly extract isarray@1.0.0
+1076 silly extract jquery@2.1.4
+1077 silly extract mimic-response@1.0.1
+1078 silly extract decompress-response@3.3.0
+1079 silly extract minimist@1.2.0
+1080 silly extract mixto@1.0.0
+1081 silly extract minimist@0.0.8
+1082 silly extract mkdirp@0.5.1
+1083 silly extract nan@2.10.0
+1084 silly extract napi-build-utils@1.0.1
+1085 silly extract next-tick@1.0.0
+1086 silly extract es5-ext@0.10.49
+1087 silly extract d@0.1.1
+1088 silly extract d@1.0.0
+1089 silly extract es6-symbol@3.1.1
+1090 silly extract es6-iterator@2.0.3
+1091 silly extract es6-symbol@2.0.1
+1092 silly extract es6-iterator@0.1.3
+1093 silly extract es6-weak-map@0.1.4
+1094 silly extract noop-logger@0.1.1
+1095 silly extract number-is-nan@1.0.1
+1096 silly extract is-fullwidth-code-point@1.0.0
+1097 silly extract object-assign@4.1.1
+1098 silly extract os-homedir@1.0.2
+1099 silly extract process-nextick-args@2.0.0
+1100 silly extract property-accessors@1.1.3
+1101 silly extract safe-buffer@5.1.2
+1102 silly extract semver@5.6.0
+1103 silly extract node-abi@2.7.1
+1104 silly extract set-blocking@2.0.0
+1105 silly extract signal-exit@3.0.2
+1106 silly tarball trying ansi-regex@^2.0.0 by hash: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+1107 silly tarball trying aproba@^1.0.3 by hash: sha512-Y9J6ZjXtoYh8RnXVCMOU/ttDmk1aBjunq9vO0ta5x85WDQiQfUF9sIPBITdbiiIVcBo03Hi3jMxigBtsddlXRw==
+1108 silly tarball trying buffer-alloc-unsafe@^1.1.0 by hash: sha512-TEM2iMIEQdJ2yjPJoSIsldnleVaAk1oW3DBVUykyOLsEsFmEc9kn+SFFPz+gl54KQNxlDnAwCXosOS9Okx2xAg==
+1109 silly tarball trying buffer-fill@^1.0.0 by hash: sha1-+PeLdniYiO858gXNY39o5wISKyw=
+1110 silly tarball trying buffer-alloc@^1.2.0 by hash: sha512-CFsHQgjtW1UChdXgbyJGtnm+O/uLQeZdtbDo8mfUgYXCHSM1wgrVxXm6bSyrUuErEb+4sYVGCzASBRot7zyrow==
+1111 silly tarball trying chownr@^1.0.1 by hash: sha512-j38EvO5+LHX84jlo6h4UzmOwi0UgW61WRyPtJz4qaadK5eY3BTS5TY/S1Stc3Uk2lIM6TPevAlULiEJwie860g==
+1112 silly tarball trying code-point-at@^1.0.0 by hash: sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
+1113 silly tarball trying console-control-strings@~1.1.0 by hash: sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+1114 silly tarball trying core-util-is@~1.0.0 by hash: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+1115 silly tarball trying deep-extend@^0.6.0 by hash: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
+1116 silly tarball trying delegates@^1.0.0 by hash: sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
+1117 silly tarball trying detect-libc@^1.0.3 by hash: sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+1118 silly tarball trying expand-template@^2.0.3 by hash: sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3AifmnI2vg==
+1119 silly tarball trying fs-constants@^1.0.0 by hash: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
+1120 silly tarball trying fuzzaldrin@^2.1.0 by hash: sha1-kCBMPi/appQbso0WZF1BgGOpDps=
+1121 silly tarball trying github-from-package@0.0.0 by hash: sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
+1122 silly tarball trying has-unicode@^2.0.0 by hash: sha1-4Ob+aijPUROIVeCG0Wkedx3iqLk=
+1123 silly tarball trying inherits@~2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+1124 silly tarball trying ini@~1.3.0 by hash: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+1125 silly tarball trying isarray@~1.0.0 by hash: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+1126 silly tarball trying jquery@2.1.4 by hash: sha1-IoveaYoMYUMdwmMKahVPFYkNIxc=
+1127 silly tarball trying mimic-response@^1.0.0 by hash: sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
+1128 silly tarball trying decompress-response@^3.3.0 by hash: sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M=
+1129 silly tarball trying minimist@^1.2.0 by hash: sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+1130 silly tarball trying mixto@1.x by hash: sha1-wyDvYbUvKJj1IuF9i7xtUG2EJbY=
+1131 silly tarball trying minimist@0.0.8 by hash: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+1132 silly tarball trying mkdirp@^0.5.1 by hash: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+1133 silly tarball trying nan@2.10.0 by hash: sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA==
+1134 silly tarball trying napi-build-utils@^1.0.1 by hash: sha512-boQj1WFgQH3v4clhu3mTNfP+vOBxorDlE8EKiMjUlLG3C4qAESnn9AxIOkFgTR2c9LtzNjPrjS60cT27ZKBhaA==
+1135 silly tarball trying next-tick@^1.0.0 by hash: sha1-yobR/ogoFpsBICCOPchCS524NCw=
+1136 silly tarball trying es5-ext@~0.10.6 by hash: sha512-3NMEhi57E31qdzmYp2jwRArIUsj1HI/RxbQ4bgnSB+AIKIxsAmTiK83bYMifIcpWvEc3P1X30DhUKOqEtF/kvg==
+1137 silly tarball trying d@~0.1.1 by hash: sha1-2hhMU10Y2O57oqoim5FACfrhEwk=
+1138 silly tarball trying d@1 by hash: sha1-dUu1v+VUUdpppYuU1F9MWwRi1Y8=
+1139 silly tarball trying es6-symbol@~3.1.1 by hash: sha1-vwDvT9q2uhtG7Le2KbTH7VcVzHc=
+1140 silly tarball trying es6-iterator@~2.0.3 by hash: sha1-p96IkUGgWpSwhUQDstCg+/qY87c=
+1141 silly tarball trying es6-symbol@~2.0.1 by hash: sha1-dhtcZ8/U8dGK+yNPaR1nhoLLO/M=
+1142 silly tarball trying es6-iterator@~0.1.3 by hash: sha1-1vWLjE/EE8JJtLqhl2j45NfIlE4=
+1143 silly tarball trying es6-weak-map@^0.1.2 by hash: sha1-cGzvnpmqI2undmwjnIueKG6n0ig=
+1144 silly tarball trying noop-logger@^0.1.1 by hash: sha1-lKKxYzxPExdVMAfYlm/Q6EG2pMI=
+1145 silly tarball trying number-is-nan@^1.0.0 by hash: sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+1146 silly tarball trying is-fullwidth-code-point@^1.0.0 by hash: sha1-754xOG8DGn8NZDr4L95QxFfvAMs=
+1147 silly tarball trying object-assign@^4.1.0 by hash: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+1148 silly tarball trying os-homedir@^1.0.1 by hash: sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+1149 silly tarball trying process-nextick-args@~2.0.0 by hash: sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
+1150 silly tarball trying property-accessors@^1.1 by hash: sha1-Hd6EAkYxhlkJ7zBwM2VoDF+SixU=
+1151 silly tarball trying safe-buffer@~5.1.1 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+1152 silly tarball trying semver@^5.4.1 by hash: sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+1153 silly tarball trying node-abi@^2.7.0 by hash: sha512-OV8Bq1OrPh6z+Y4dqwo05HqrRL9YNF7QVMRfq1/pguwKLG+q9UB/Lk0x5qXjO23JjJg+/jqCHSTaG1P3tfKfuw==
+1154 silly tarball trying set-blocking@~2.0.0 by hash: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
+1155 silly tarball trying signal-exit@^3.0.0 by hash: sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+1156 silly tarball no local data for es5-ext@~0.10.6. Extracting by manifest.
+1157 silly extract ansi-regex@^2.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/ansi-regex-e6da34d5 (173ms)
+1158 silly extract buffer-alloc-unsafe@^1.1.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/buffer-alloc-unsafe-85c3fc0b (171ms)
+1159 silly extract buffer-fill@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/buffer-fill-1abd06cc (171ms)
+1160 silly extract buffer-alloc@^1.2.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/buffer-alloc-047b0007 (170ms)
+1161 silly extract platformio-ide-terminal@2.9.1
+1162 silly extract underscore@1.9.1
+1163 silly extract term.js@0.0.7
+1164 silly extract node-pty-prebuilt@0.7.6
+1165 silly tarball trying https://www.atom.io/api/packages/platformio-ide-terminal/versions/2.9.1/tarball by hash: sha512-TKRRUytTqG2xcY9P/m88iEvrgWincWnVwZ8A9G3m5t/9vLl5DjbXBTLdvhfsg+GrUrDWYmU+MNbDljMo95U5vg==
+1166 silly tarball trying underscore@^1.8.3 by hash: sha512-5/4etnCkd9c8gwgowi5/om/mYO5ajCaOgdzj/oW+0eQV9WxKBDZw5+ycmKmeaTXjInS/W0BzpGLo2xR2aBwZdg==
+1167 silly tarball trying term.js@https://github.com/jeremyramin/term.js/tarball/master by hash: sha512-LcrQriSDwCqyAP/aMmX6hN/HhSgZsb0oKLt8ryh0WlLyQpAMbwtqwVRZpEIrcuADErz4u/E0u0TCBiD86vYUpA==
+1168 silly tarball trying node-pty-prebuilt@^0.7.6 by hash: sha512-aD/77N6WmohtWMhdHaBMunOihpZzDcp5Ig1cHsmtYNxl5NU8+3r9aGkfbKWUDYrPQaFgbJEAWfGeb3NFYd1+0g==
+1169 silly extract aproba@^1.0.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/aproba-4669d253 (178ms)
+1170 silly extract chownr@^1.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/chownr-88d6169c (177ms)
+1171 silly extract code-point-at@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/code-point-at-a3b27616 (177ms)
+1172 silly extract has-unicode@^2.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/has-unicode-d6440cc0 (174ms)
+1173 silly extract ini@~1.3.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/ini-ca1e1df0 (173ms)
+1174 silly extract mimic-response@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/mimic-response-9717d79d (172ms)
+1175 silly extract decompress-response@^3.3.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/decompress-response-4b08a3ca (172ms)
+1176 silly extract atom-space-pen-views@2.2.0
+1177 silly extract prebuild-install@5.2.5
+1178 silly extract tar-fs@1.16.3
+1179 silly extract tar-stream@1.6.2
+1180 silly extract xtend@4.0.1
+1181 silly extract pump@1.0.3
+1182 silly extract simple-get@2.8.1
+1183 silly tarball trying atom-space-pen-views@^2.2.0 by hash: sha1-plsskg7QL3JAFPp9Plw9ePv1mZc=
+1184 silly tarball trying prebuild-install@^5.0.0 by hash: sha512-6uZgMVg7yDfqlP5CPurVhtq3hUKBFNufiar4J5hZrlHTo59DDBEtyxw01xCdFss9j0Zb9+qzFVf/s4niayba3w==
+1185 silly tarball trying tar-fs@^1.13.0 by hash: sha512-NvCeXpYx7OsmOh8zIOP/ebG55zZmxLE0etfWRbWok+q2Qo8x/vOR/IJT1taADXPe+jsiu9axDb3X4B+iIgNlKw==
+1186 silly tarball trying tar-stream@^1.1.2 by hash: sha512-rzS0heiNf8Xn7/mpdSVVSMAWAoy9bfb1WOTYC78Z0UQKeKa/CWS8FOq0lKGNa8DWKAn9gxjCvMLYc5PGXYlK2A==
+1187 silly tarball trying xtend@^4.0.0 by hash: sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
+1188 silly tarball trying pump@^1.0.0 by hash: sha512-8k0JupWme55+9tCVE+FS5ULT3K6AbgqrGa58lTT49RpyfwwcGedHqaC5LlQNdEAumn/wFsu6aPwkuPMioy8kqw==
+1189 silly tarball trying simple-get@^2.7.0 by hash: sha512-lSSHRSw3mQNUGPAYRqo7xy9dhKmxFXIjLjp4KHpf99GEH2VH7C3AM+Qfx6du6jhfUi6Vm7XnbEVEf7Wb6N8jRw==
+1190 silly extract number-is-nan@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/number-is-nan-cf699327 (174ms)
+1191 silly extract is-fullwidth-code-point@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/is-fullwidth-code-point-4fabb3bf (174ms)
+1192 silly extract object-assign@^4.1.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/object-assign-e994aa14 (174ms)
+1193 silly extract os-homedir@^1.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/os-homedir-1b67b2c9 (173ms)
+1194 silly extract process-nextick-args@~2.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/process-nextick-args-cbcfe0a2 (173ms)
+1195 silly extract console-control-strings@~1.1.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/console-control-strings-543728cc (186ms)
+1196 silly extract fs-constants@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/fs-constants-57cf9afd (184ms)
+1197 silly extract inherits@~2.0.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/inherits-5ee7cb02 (182ms)
+1198 silly extract pump@2.0.1
+1199 silly extract end-of-stream@1.4.1
+1200 silly extract once@1.4.0
+1201 silly extract wrappy@1.0.2
+1202 silly extract npmlog@4.1.2
+1203 silly extract gauge@2.7.4
+1204 silly extract wide-align@1.1.3
+1205 silly extract which-pm-runs@1.0.0
+1206 silly tarball trying pump@^2.0.1 by hash: sha512-ruPMNRkN3MHP1cWJc9OWr+T/xDP0jhXYCLfJcBuX54hhfIBnaQmAUMfDcG4DM5UMWByBbJY69QSphm3jtDKIkA==
+1207 silly tarball trying end-of-stream@^1.1.0 by hash: sha512-1MkrZNvWTKCaigbn+W15elq2BB/L22nqrSY5DKlo3X6+vclJm8Bb5djXJBmEX6fS3+zCh/F4VBK5Z2KxJt4s2Q==
+1208 silly tarball trying once@^1.3.1 by hash: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+1209 silly tarball trying wrappy@1 by hash: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+1210 silly tarball trying npmlog@^4.0.1 by hash: sha512-2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==
+1211 silly tarball trying gauge@~2.7.3 by hash: sha1-LANAXHU4w51+s3sxcCLjJfsBi/c=
+1212 silly tarball trying wide-align@^1.1.0 by hash: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
+1213 silly tarball trying which-pm-runs@^1.0.0 by hash: sha1-Zws6+8VS4LVd9rd4DKdGFfI60cs=
+1214 silly extract set-blocking@~2.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/set-blocking-3d0ba196 (180ms)
+1215 silly extract expand-template@^2.0.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/expand-template-e44f8de7 (193ms)
+1216 silly extract bl@1.2.2
+1217 silly extract are-we-there-yet@1.1.5
+1218 silly tarball trying bl@^1.0.0 by hash: sha512-e8tQYnZodmebYDWGH7KMRvtzKXaJHx3BbilrgZCfvyLUYdKpK1t5PSPmpkny/SgiTSCnjfLW7v5rlONXVFkQEA==
+1219 silly tarball trying are-we-there-yet@~1.1.2 by hash: sha512-5hYdAkZlcG8tOLujVDTgCT+uPX0VnpAH28gWsLfzpXYm7wP6mp5Q/gYyR7YQ0cKVJcXJnl3j2kpBan13PtQf6w==
+1220 silly extract signal-exit@^3.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/signal-exit-6e7e4aa1 (197ms)
+1221 silly extract mixto@1.x extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/mixto-68839e9a (207ms)
+1222 silly extract readable-stream@2.3.6
+1223 silly extract util-deprecate@1.0.2
+1224 silly tarball trying readable-stream@^2.0.6 by hash: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
+1225 silly tarball trying util-deprecate@~1.0.1 by hash: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+1226 silly tarball no local data for prebuild-install@^5.0.0. Extracting by manifest.
+1227 silly extract safe-buffer@~5.1.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/safe-buffer-26361674 (217ms)
+1228 silly extract property-accessors@^1.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/property-accessors-d8e2d5ce (217ms)
+1229 silly extract isarray@~1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/isarray-28f56432 (227ms)
+1230 silly extract napi-build-utils@^1.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/napi-build-utils-8250aeb6 (223ms)
+1231 silly extract space-pen@5.1.2
+1232 silly extract grim@1.5.0
+1233 silly extract emissary@1.3.3
+1234 silly extract underscore-plus@1.6.8
+1235 silly tarball trying space-pen@^5.1.2 by hash: sha1-Ivu+EOCwROe3pHsCPamdlLWE748=
+1236 silly tarball trying grim@^1.0.0 by hash: sha1-sysI71Z88YUvgXWe2caLDXE5ajI=
+1237 silly tarball trying emissary@^1.2.0 by hash: sha1-phjZLWgrIy0xER3DYlpd9mF5lgY=
+1238 silly tarball trying underscore-plus@1.x by hash: sha512-88PrCeMKeAAC1L4xjSiiZ3Fg6kZOYrLpLGVPPeqKq/662DfQe/KTSKdSR/Q/tucKNnfW2MNAUGSCkDf8HmXC5Q==
+1239 silly extract deep-extend@^0.6.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/deep-extend-5c4635f5 (240ms)
+1240 silly extract underscore@1.8.3
+1241 silly tarball trying underscore@~1.8.3 by hash: sha1-Tz+1OxBuYJf8+ctBCfKl6b36UCI=
+1242 silly extract core-util-is@~1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/core-util-is-5c3164aa (259ms)
+1243 silly extract delegates@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/delegates-12c3d022 (259ms)
+1244 silly extract fuzzaldrin@^2.1.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/fuzzaldrin-795b8e53 (257ms)
+1245 silly extract tunnel-agent@0.6.0
+1246 silly extract to-buffer@1.1.1
+1247 silly extract rc@1.2.8
+1248 silly tarball trying tunnel-agent@^0.6.0 by hash: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+1249 silly tarball trying to-buffer@^1.1.1 by hash: sha512-lx9B5iv7msuFYE3dytT+KE5tap+rNYw+K4jVkb9R/asAb+pbBSM17jtunHplhBe6RRJdZx3Pn2Jph24O32mOVg==
+1250 silly tarball trying rc@^1.2.7 by hash: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
+1251 silly extract next-tick@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/next-tick-4b05756d (261ms)
+1252 silly extract strip-json-comments@2.0.1
+1253 silly tarball trying strip-json-comments@~2.0.1 by hash: sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+1254 silly extract node-abi@^2.7.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/node-abi-fb4942b3 (278ms)
+1255 silly extract semver@^5.4.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/semver-c1bd117c (279ms)
+1256 silly extract detect-libc@^1.0.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/detect-libc-392015fe (291ms)
+1257 silly extract noop-logger@^0.1.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/noop-logger-a970d19e (281ms)
+1258 silly extract string-width@1.0.2
+1259 silly extract strip-ansi@3.0.1
+1260 silly extract string_decoder@1.1.1
+1261 silly extract simple-concat@1.0.0
+1262 silly tarball trying string-width@^1.0.1 by hash: sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M=
+1263 silly tarball trying strip-ansi@^3.0.1 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+1264 silly tarball trying string_decoder@~1.1.1 by hash: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+1265 silly tarball trying simple-concat@^1.0.0 by hash: sha1-c0TLuLbib7J9ZrL8hvn21Zl1IcY=
+1266 silly extract d@~0.1.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/d-a6653a05 (311ms)
+1267 silly extract simple-get@^2.7.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/simple-get-6c302a55 (136ms)
+1268 silly extract d@1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/d-03682885 (315ms)
+1269 silly extract end-of-stream@^1.1.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/end-of-stream-bce5e836 (135ms)
+1270 silly extract once@^1.3.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/once-fa79c678 (134ms)
+1271 silly extract wrappy@1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/wrappy-66e734b1 (134ms)
+1272 silly extract wide-align@^1.1.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/wide-align-96895163 (133ms)
+1273 silly extract which-pm-runs@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/which-pm-runs-a87281c0 (132ms)
+1274 silly extract github-from-package@0.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/github-from-package-d1f0d4f1 (326ms)
+1275 silly extract minimist@0.0.8 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/minimist-5573b88b (327ms)
+1276 silly extract pump@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/pump-2ee0d543 (149ms)
+1277 silly extract pump@^2.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/pump-1cd2962f (146ms)
+1278 silly extract npmlog@^4.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/npmlog-844f1032 (144ms)
+1279 silly extract tar-stream@^1.1.2 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/tar-stream-e94e7fe2 (154ms)
+1280 silly extract xtend@^4.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/xtend-0edbd0c4 (153ms)
+1281 silly extract util-deprecate@~1.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/util-deprecate-80f8bfc0 (111ms)
+1282 silly extract es6-symbol@~3.1.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/es6-symbol-2653faef (334ms)
+1283 silly extract es6-symbol@~2.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/es6-symbol-c11693e7 (333ms)
+1284 silly extract es6-weak-map@^0.1.2 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/es6-weak-map-78d04fea (333ms)
+1285 silly extract grim@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/grim-d4f110c4 (107ms)
+1286 silly extract tunnel-agent@^0.6.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/tunnel-agent-dd5a0b71 (77ms)
+1287 silly extract strip-json-comments@~2.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/strip-json-comments-20a23a78 (64ms)
+1288 silly extract underscore@^1.8.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/underscore-7223d4fe (173ms)
+1289 silly extract are-we-there-yet@~1.1.2 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/are-we-there-yet-a60f0020 (136ms)
+1290 silly extract underscore-plus@1.x extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/underscore-plus-fa258bad (108ms)
+1291 silly extract to-buffer@^1.1.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/to-buffer-118b2e72 (79ms)
+1292 silly extract string-width@^1.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/string-width-c60d9303 (54ms)
+1293 silly extract strip-ansi@^3.0.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/strip-ansi-f0caab63 (54ms)
+1294 silly extract bl@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/bl-395d3152 (142ms)
+1295 silly extract space-pen@^5.1.2 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/space-pen-eb25c0f6 (115ms)
+1296 silly extract atom-space-pen-views@^2.2.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/atom-space-pen-views-7c77272b (176ms)
+1297 silly extract minimist@^1.2.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/minimist-62e24372 (353ms)
+1298 silly extract es6-iterator@~0.1.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/es6-iterator-13522125 (349ms)
+1299 silly extract underscore@~1.8.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/underscore-39a9587e (109ms)
+1300 silly extract string_decoder@~1.1.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/string_decoder-bbead306 (62ms)
+1301 silly extract simple-concat@^1.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/simple-concat-53ebc508 (61ms)
+1302 silly extract emissary@^1.2.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/emissary-21f0f337 (122ms)
+1303 http fetch GET 200 https://registry.npmjs.org/prebuild-install/-/prebuild-install-5.2.5.tgz 124ms
+1304 silly extract mkdirp@^0.5.1 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/mkdirp-5b2755fa (357ms)
+1305 silly extract es6-iterator@~2.0.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/es6-iterator-96a7cb3f (360ms)
+1306 silly extract gauge@~2.7.3 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/gauge-b532707f (178ms)
+1307 silly extract rc@^1.2.7 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/rc-a6959107 (102ms)
+1308 silly extract prebuild-install@^5.0.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/prebuild-install-1869c71a (195ms)
+1309 silly extract term.js@https://github.com/jeremyramin/term.js/tarball/master extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/term.js-ca9524d9 (209ms)
+1310 silly extract readable-stream@^2.0.6 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/readable-stream-2411b268 (166ms)
+1311 silly extract nan@2.10.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/nan-35450c1c (400ms)
+1312 silly extract tar-fs@^1.13.0 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/tar-fs-6ecff6e9 (231ms)
+1313 silly extract jquery@2.1.4 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/jquery-9f524939 (494ms)
+1314 silly extract node-pty-prebuilt@^0.7.6 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/node-pty-prebuilt-527c48aa (375ms)
+1315 silly extract https://www.atom.io/api/packages/platformio-ide-terminal/versions/2.9.1/tarball extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/platformio-ide-terminal-cdb9bae0 (408ms)
+1316 http fetch GET 200 https://registry.npmjs.org/es5-ext/-/es5-ext-0.10.49.tgz 466ms
+1317 silly extract es5-ext@~0.10.6 extracted to /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging/es5-ext-ed3e2374 (678ms)
+1318 timing action:extract Completed in 693ms
+1319 silly doReverseSerial unbuild 688
+1320 silly doSerial remove 688
+1321 silly doSerial move 688
+1322 silly doSerial finalize 688
+1323 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/ansi-regex
+1324 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/aproba
+1325 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/buffer-alloc-unsafe
+1326 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/buffer-fill
+1327 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/buffer-alloc
+1328 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/chownr
+1329 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/code-point-at
+1330 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/console-control-strings
+1331 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/core-util-is
+1332 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/deep-extend
+1333 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/delegates
+1334 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/detect-libc
+1335 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/expand-template
+1336 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/fs-constants
+1337 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/fuzzaldrin
+1338 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/github-from-package
+1339 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/has-unicode
+1340 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/inherits
+1341 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/ini
+1342 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/isarray
+1343 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/jquery
+1344 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mimic-response
+1345 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/decompress-response
+1346 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/minimist
+1347 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mixto
+1348 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mkdirp/node_modules/minimist
+1349 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mkdirp
+1350 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/nan
+1351 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/napi-build-utils
+1352 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/next-tick
+1353 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext
+1354 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/d
+1355 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules/d
+1356 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules/es6-symbol
+1357 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules/es6-iterator
+1358 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es6-symbol
+1359 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es6-iterator
+1360 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es6-weak-map
+1361 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/noop-logger
+1362 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/number-is-nan
+1363 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/is-fullwidth-code-point
+1364 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/object-assign
+1365 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/os-homedir
+1366 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/process-nextick-args
+1367 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/property-accessors
+1368 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/safe-buffer
+1369 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/semver
+1370 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/node-abi
+1371 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/set-blocking
+1372 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/signal-exit
+1373 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/simple-concat
+1374 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/string_decoder
+1375 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/strip-ansi
+1376 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/string-width
+1377 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/strip-json-comments
+1378 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/rc
+1379 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/to-buffer
+1380 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tunnel-agent
+1381 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/underscore-plus/node_modules/underscore
+1382 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/underscore-plus
+1383 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/emissary
+1384 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/grim
+1385 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/space-pen
+1386 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/util-deprecate
+1387 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/readable-stream
+1388 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/are-we-there-yet
+1389 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/bl
+1390 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/which-pm-runs
+1391 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/wide-align
+1392 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/gauge
+1393 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/npmlog
+1394 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/wrappy
+1395 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/once
+1396 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/end-of-stream
+1397 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/pump
+1398 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/simple-get
+1399 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tar-fs/node_modules/pump
+1400 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/xtend
+1401 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tar-stream
+1402 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tar-fs
+1403 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/prebuild-install
+1404 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/atom-space-pen-views
+1405 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/node-pty-prebuilt
+1406 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/term.js
+1407 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/underscore
+1408 silly finalize /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal
+1409 timing action:finalize Completed in 68ms
+1410 silly doParallel refresh-package-json 86
+1411 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/ansi-regex
+1412 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/aproba
+1413 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/buffer-alloc-unsafe
+1414 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/buffer-fill
+1415 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/buffer-alloc
+1416 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/chownr
+1417 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/code-point-at
+1418 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/console-control-strings
+1419 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/core-util-is
+1420 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/deep-extend
+1421 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/delegates
+1422 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/detect-libc
+1423 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/expand-template
+1424 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/fs-constants
+1425 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/fuzzaldrin
+1426 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/github-from-package
+1427 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/has-unicode
+1428 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/inherits
+1429 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/ini
+1430 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/isarray
+1431 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/jquery
+1432 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mimic-response
+1433 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/decompress-response
+1434 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/minimist
+1435 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mixto
+1436 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mkdirp/node_modules/minimist
+1437 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mkdirp
+1438 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/nan
+1439 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/napi-build-utils
+1440 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/next-tick
+1441 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext
+1442 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/d
+1443 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules/d
+1444 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules/es6-symbol
+1445 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules/es6-iterator
+1446 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es6-symbol
+1447 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es6-iterator
+1448 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es6-weak-map
+1449 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/noop-logger
+1450 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/number-is-nan
+1451 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/is-fullwidth-code-point
+1452 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/object-assign
+1453 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/os-homedir
+1454 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/process-nextick-args
+1455 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/property-accessors
+1456 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/safe-buffer
+1457 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/semver
+1458 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/node-abi
+1459 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/set-blocking
+1460 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/signal-exit
+1461 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal
+1462 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/underscore
+1463 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/term.js
+1464 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/node-pty-prebuilt
+1465 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/atom-space-pen-views
+1466 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/prebuild-install
+1467 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tar-fs
+1468 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tar-stream
+1469 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/xtend
+1470 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tar-fs/node_modules/pump
+1471 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/simple-get
+1472 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/pump
+1473 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/end-of-stream
+1474 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/once
+1475 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/wrappy
+1476 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/npmlog
+1477 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/gauge
+1478 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/wide-align
+1479 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/which-pm-runs
+1480 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/bl
+1481 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/are-we-there-yet
+1482 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/readable-stream
+1483 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/util-deprecate
+1484 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/space-pen
+1485 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/grim
+1486 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/emissary
+1487 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/underscore-plus
+1488 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/underscore-plus/node_modules/underscore
+1489 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tunnel-agent
+1490 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/to-buffer
+1491 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/rc
+1492 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/strip-json-comments
+1493 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/string-width
+1494 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/strip-ansi
+1495 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/string_decoder
+1496 silly refresh-package-json /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/simple-concat
+1497 timing action:refresh-package-json Completed in 161ms
+1498 silly doParallel preinstall 86
+1499 silly preinstall ansi-regex@2.1.1
+1500 info lifecycle ansi-regex@2.1.1~preinstall: ansi-regex@2.1.1
+1501 silly preinstall aproba@1.2.0
+1502 info lifecycle aproba@1.2.0~preinstall: aproba@1.2.0
+1503 silly preinstall buffer-alloc-unsafe@1.1.0
+1504 info lifecycle buffer-alloc-unsafe@1.1.0~preinstall: buffer-alloc-unsafe@1.1.0
+1505 silly preinstall buffer-fill@1.0.0
+1506 info lifecycle buffer-fill@1.0.0~preinstall: buffer-fill@1.0.0
+1507 silly preinstall buffer-alloc@1.2.0
+1508 info lifecycle buffer-alloc@1.2.0~preinstall: buffer-alloc@1.2.0
+1509 silly preinstall chownr@1.1.1
+1510 info lifecycle chownr@1.1.1~preinstall: chownr@1.1.1
+1511 silly preinstall code-point-at@1.1.0
+1512 info lifecycle code-point-at@1.1.0~preinstall: code-point-at@1.1.0
+1513 silly preinstall console-control-strings@1.1.0
+1514 info lifecycle console-control-strings@1.1.0~preinstall: console-control-strings@1.1.0
+1515 silly preinstall core-util-is@1.0.2
+1516 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+1517 silly preinstall deep-extend@0.6.0
+1518 info lifecycle deep-extend@0.6.0~preinstall: deep-extend@0.6.0
+1519 silly preinstall delegates@1.0.0
+1520 info lifecycle delegates@1.0.0~preinstall: delegates@1.0.0
+1521 silly preinstall detect-libc@1.0.3
+1522 info lifecycle detect-libc@1.0.3~preinstall: detect-libc@1.0.3
+1523 silly preinstall expand-template@2.0.3
+1524 info lifecycle expand-template@2.0.3~preinstall: expand-template@2.0.3
+1525 silly preinstall fs-constants@1.0.0
+1526 info lifecycle fs-constants@1.0.0~preinstall: fs-constants@1.0.0
+1527 silly preinstall fuzzaldrin@2.1.0
+1528 info lifecycle fuzzaldrin@2.1.0~preinstall: fuzzaldrin@2.1.0
+1529 silly preinstall github-from-package@0.0.0
+1530 info lifecycle github-from-package@0.0.0~preinstall: github-from-package@0.0.0
+1531 silly preinstall has-unicode@2.0.1
+1532 info lifecycle has-unicode@2.0.1~preinstall: has-unicode@2.0.1
+1533 silly preinstall inherits@2.0.3
+1534 info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+1535 silly preinstall ini@1.3.5
+1536 info lifecycle ini@1.3.5~preinstall: ini@1.3.5
+1537 silly preinstall isarray@1.0.0
+1538 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+1539 silly preinstall jquery@2.1.4
+1540 info lifecycle jquery@2.1.4~preinstall: jquery@2.1.4
+1541 silly preinstall mimic-response@1.0.1
+1542 info lifecycle mimic-response@1.0.1~preinstall: mimic-response@1.0.1
+1543 silly preinstall decompress-response@3.3.0
+1544 info lifecycle decompress-response@3.3.0~preinstall: decompress-response@3.3.0
+1545 silly preinstall minimist@1.2.0
+1546 info lifecycle minimist@1.2.0~preinstall: minimist@1.2.0
+1547 silly preinstall mixto@1.0.0
+1548 info lifecycle mixto@1.0.0~preinstall: mixto@1.0.0
+1549 silly preinstall minimist@0.0.8
+1550 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+1551 silly preinstall mkdirp@0.5.1
+1552 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+1553 silly preinstall nan@2.10.0
+1554 info lifecycle nan@2.10.0~preinstall: nan@2.10.0
+1555 silly preinstall napi-build-utils@1.0.1
+1556 info lifecycle napi-build-utils@1.0.1~preinstall: napi-build-utils@1.0.1
+1557 silly preinstall next-tick@1.0.0
+1558 info lifecycle next-tick@1.0.0~preinstall: next-tick@1.0.0
+1559 silly preinstall es5-ext@0.10.49
+1560 info lifecycle es5-ext@0.10.49~preinstall: es5-ext@0.10.49
+1561 silly preinstall d@0.1.1
+1562 info lifecycle d@0.1.1~preinstall: d@0.1.1
+1563 silly preinstall d@1.0.0
+1564 info lifecycle d@1.0.0~preinstall: d@1.0.0
+1565 silly preinstall es6-symbol@3.1.1
+1566 info lifecycle es6-symbol@3.1.1~preinstall: es6-symbol@3.1.1
+1567 silly preinstall es6-iterator@2.0.3
+1568 info lifecycle es6-iterator@2.0.3~preinstall: es6-iterator@2.0.3
+1569 silly preinstall es6-symbol@2.0.1
+1570 info lifecycle es6-symbol@2.0.1~preinstall: es6-symbol@2.0.1
+1571 silly preinstall es6-iterator@0.1.3
+1572 info lifecycle es6-iterator@0.1.3~preinstall: es6-iterator@0.1.3
+1573 silly preinstall es6-weak-map@0.1.4
+1574 info lifecycle es6-weak-map@0.1.4~preinstall: es6-weak-map@0.1.4
+1575 silly preinstall noop-logger@0.1.1
+1576 info lifecycle noop-logger@0.1.1~preinstall: noop-logger@0.1.1
+1577 silly preinstall number-is-nan@1.0.1
+1578 info lifecycle number-is-nan@1.0.1~preinstall: number-is-nan@1.0.1
+1579 silly preinstall is-fullwidth-code-point@1.0.0
+1580 info lifecycle is-fullwidth-code-point@1.0.0~preinstall: is-fullwidth-code-point@1.0.0
+1581 silly preinstall object-assign@4.1.1
+1582 info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+1583 silly preinstall os-homedir@1.0.2
+1584 info lifecycle os-homedir@1.0.2~preinstall: os-homedir@1.0.2
+1585 silly preinstall process-nextick-args@2.0.0
+1586 info lifecycle process-nextick-args@2.0.0~preinstall: process-nextick-args@2.0.0
+1587 silly preinstall property-accessors@1.1.3
+1588 info lifecycle property-accessors@1.1.3~preinstall: property-accessors@1.1.3
+1589 silly preinstall safe-buffer@5.1.2
+1590 info lifecycle safe-buffer@5.1.2~preinstall: safe-buffer@5.1.2
+1591 silly preinstall semver@5.6.0
+1592 info lifecycle semver@5.6.0~preinstall: semver@5.6.0
+1593 silly preinstall node-abi@2.7.1
+1594 info lifecycle node-abi@2.7.1~preinstall: node-abi@2.7.1
+1595 silly preinstall set-blocking@2.0.0
+1596 info lifecycle set-blocking@2.0.0~preinstall: set-blocking@2.0.0
+1597 silly preinstall signal-exit@3.0.2
+1598 info lifecycle signal-exit@3.0.2~preinstall: signal-exit@3.0.2
+1599 silly preinstall platformio-ide-terminal@2.9.1
+1600 info lifecycle platformio-ide-terminal@2.9.1~preinstall: platformio-ide-terminal@2.9.1
+1601 silly preinstall underscore@1.9.1
+1602 info lifecycle underscore@1.9.1~preinstall: underscore@1.9.1
+1603 silly preinstall term.js@0.0.7
+1604 info lifecycle term.js@0.0.7~preinstall: term.js@0.0.7
+1605 silly preinstall node-pty-prebuilt@0.7.6
+1606 info lifecycle node-pty-prebuilt@0.7.6~preinstall: node-pty-prebuilt@0.7.6
+1607 silly preinstall atom-space-pen-views@2.2.0
+1608 info lifecycle atom-space-pen-views@2.2.0~preinstall: atom-space-pen-views@2.2.0
+1609 silly preinstall prebuild-install@5.2.5
+1610 info lifecycle prebuild-install@5.2.5~preinstall: prebuild-install@5.2.5
+1611 silly preinstall tar-fs@1.16.3
+1612 info lifecycle tar-fs@1.16.3~preinstall: tar-fs@1.16.3
+1613 silly preinstall tar-stream@1.6.2
+1614 info lifecycle tar-stream@1.6.2~preinstall: tar-stream@1.6.2
+1615 silly preinstall xtend@4.0.1
+1616 info lifecycle xtend@4.0.1~preinstall: xtend@4.0.1
+1617 silly preinstall pump@1.0.3
+1618 info lifecycle pump@1.0.3~preinstall: pump@1.0.3
+1619 silly preinstall simple-get@2.8.1
+1620 info lifecycle simple-get@2.8.1~preinstall: simple-get@2.8.1
+1621 silly preinstall pump@2.0.1
+1622 info lifecycle pump@2.0.1~preinstall: pump@2.0.1
+1623 silly preinstall end-of-stream@1.4.1
+1624 info lifecycle end-of-stream@1.4.1~preinstall: end-of-stream@1.4.1
+1625 silly preinstall once@1.4.0
+1626 info lifecycle once@1.4.0~preinstall: once@1.4.0
+1627 silly preinstall wrappy@1.0.2
+1628 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+1629 silly preinstall npmlog@4.1.2
+1630 info lifecycle npmlog@4.1.2~preinstall: npmlog@4.1.2
+1631 silly preinstall gauge@2.7.4
+1632 info lifecycle gauge@2.7.4~preinstall: gauge@2.7.4
+1633 silly preinstall wide-align@1.1.3
+1634 info lifecycle wide-align@1.1.3~preinstall: wide-align@1.1.3
+1635 silly preinstall which-pm-runs@1.0.0
+1636 info lifecycle which-pm-runs@1.0.0~preinstall: which-pm-runs@1.0.0
+1637 silly preinstall bl@1.2.2
+1638 info lifecycle bl@1.2.2~preinstall: bl@1.2.2
+1639 silly preinstall are-we-there-yet@1.1.5
+1640 info lifecycle are-we-there-yet@1.1.5~preinstall: are-we-there-yet@1.1.5
+1641 silly preinstall readable-stream@2.3.6
+1642 info lifecycle readable-stream@2.3.6~preinstall: readable-stream@2.3.6
+1643 silly preinstall util-deprecate@1.0.2
+1644 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+1645 silly preinstall space-pen@5.1.2
+1646 info lifecycle space-pen@5.1.2~preinstall: space-pen@5.1.2
+1647 silly preinstall grim@1.5.0
+1648 info lifecycle grim@1.5.0~preinstall: grim@1.5.0
+1649 silly preinstall emissary@1.3.3
+1650 info lifecycle emissary@1.3.3~preinstall: emissary@1.3.3
+1651 silly preinstall underscore-plus@1.6.8
+1652 info lifecycle underscore-plus@1.6.8~preinstall: underscore-plus@1.6.8
+1653 silly preinstall underscore@1.8.3
+1654 info lifecycle underscore@1.8.3~preinstall: underscore@1.8.3
+1655 silly preinstall tunnel-agent@0.6.0
+1656 info lifecycle tunnel-agent@0.6.0~preinstall: tunnel-agent@0.6.0
+1657 silly preinstall to-buffer@1.1.1
+1658 info lifecycle to-buffer@1.1.1~preinstall: to-buffer@1.1.1
+1659 silly preinstall rc@1.2.8
+1660 info lifecycle rc@1.2.8~preinstall: rc@1.2.8
+1661 silly preinstall strip-json-comments@2.0.1
+1662 info lifecycle strip-json-comments@2.0.1~preinstall: strip-json-comments@2.0.1
+1663 silly preinstall string-width@1.0.2
+1664 info lifecycle string-width@1.0.2~preinstall: string-width@1.0.2
+1665 silly preinstall strip-ansi@3.0.1
+1666 info lifecycle strip-ansi@3.0.1~preinstall: strip-ansi@3.0.1
+1667 silly preinstall string_decoder@1.1.1
+1668 info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+1669 silly preinstall simple-concat@1.0.0
+1670 info lifecycle simple-concat@1.0.0~preinstall: simple-concat@1.0.0
+1671 timing action:preinstall Completed in 9ms
+1672 silly doSerial build 688
+1673 silly build ansi-regex@2.1.1
+1674 info linkStuff ansi-regex@2.1.1
+1675 silly linkStuff ansi-regex@2.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1676 silly build aproba@1.2.0
+1677 info linkStuff aproba@1.2.0
+1678 silly linkStuff aproba@1.2.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1679 silly build buffer-alloc-unsafe@1.1.0
+1680 info linkStuff buffer-alloc-unsafe@1.1.0
+1681 silly linkStuff buffer-alloc-unsafe@1.1.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1682 silly build buffer-fill@1.0.0
+1683 info linkStuff buffer-fill@1.0.0
+1684 silly linkStuff buffer-fill@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1685 silly build buffer-alloc@1.2.0
+1686 info linkStuff buffer-alloc@1.2.0
+1687 silly linkStuff buffer-alloc@1.2.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1688 silly build chownr@1.1.1
+1689 info linkStuff chownr@1.1.1
+1690 silly linkStuff chownr@1.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1691 silly build code-point-at@1.1.0
+1692 info linkStuff code-point-at@1.1.0
+1693 silly linkStuff code-point-at@1.1.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1694 silly build console-control-strings@1.1.0
+1695 info linkStuff console-control-strings@1.1.0
+1696 silly linkStuff console-control-strings@1.1.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1697 silly build core-util-is@1.0.2
+1698 info linkStuff core-util-is@1.0.2
+1699 silly linkStuff core-util-is@1.0.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1700 silly build deep-extend@0.6.0
+1701 info linkStuff deep-extend@0.6.0
+1702 silly linkStuff deep-extend@0.6.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1703 silly build delegates@1.0.0
+1704 info linkStuff delegates@1.0.0
+1705 silly linkStuff delegates@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1706 silly build detect-libc@1.0.3
+1707 info linkStuff detect-libc@1.0.3
+1708 silly linkStuff detect-libc@1.0.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1709 verbose linkBins [ { 'detect-libc': './bin/detect-libc.js' },
+1709 verbose linkBins   '/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/.bin',
+1709 verbose linkBins   false ]
+1710 silly build expand-template@2.0.3
+1711 info linkStuff expand-template@2.0.3
+1712 silly linkStuff expand-template@2.0.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1713 silly build fs-constants@1.0.0
+1714 info linkStuff fs-constants@1.0.0
+1715 silly linkStuff fs-constants@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1716 silly build fuzzaldrin@2.1.0
+1717 info linkStuff fuzzaldrin@2.1.0
+1718 silly linkStuff fuzzaldrin@2.1.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1719 silly build github-from-package@0.0.0
+1720 info linkStuff github-from-package@0.0.0
+1721 silly linkStuff github-from-package@0.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1722 silly build has-unicode@2.0.1
+1723 info linkStuff has-unicode@2.0.1
+1724 silly linkStuff has-unicode@2.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1725 silly build inherits@2.0.3
+1726 info linkStuff inherits@2.0.3
+1727 silly linkStuff inherits@2.0.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1728 silly build ini@1.3.5
+1729 info linkStuff ini@1.3.5
+1730 silly linkStuff ini@1.3.5 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1731 silly build isarray@1.0.0
+1732 info linkStuff isarray@1.0.0
+1733 silly linkStuff isarray@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1734 silly build jquery@2.1.4
+1735 info linkStuff jquery@2.1.4
+1736 silly linkStuff jquery@2.1.4 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1737 silly build mimic-response@1.0.1
+1738 info linkStuff mimic-response@1.0.1
+1739 silly linkStuff mimic-response@1.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1740 silly build decompress-response@3.3.0
+1741 info linkStuff decompress-response@3.3.0
+1742 silly linkStuff decompress-response@3.3.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1743 silly build minimist@1.2.0
+1744 info linkStuff minimist@1.2.0
+1745 silly linkStuff minimist@1.2.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1746 silly build mixto@1.0.0
+1747 info linkStuff mixto@1.0.0
+1748 silly linkStuff mixto@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1749 silly build minimist@0.0.8
+1750 info linkStuff minimist@0.0.8
+1751 silly linkStuff minimist@0.0.8 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/mkdirp/node_modules as its parent node_modules
+1752 silly build mkdirp@0.5.1
+1753 info linkStuff mkdirp@0.5.1
+1754 silly linkStuff mkdirp@0.5.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1755 verbose linkBins [ { mkdirp: 'bin/cmd.js' },
+1755 verbose linkBins   '/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/.bin',
+1755 verbose linkBins   false ]
+1756 silly build nan@2.10.0
+1757 info linkStuff nan@2.10.0
+1758 silly linkStuff nan@2.10.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1759 silly build napi-build-utils@1.0.1
+1760 info linkStuff napi-build-utils@1.0.1
+1761 silly linkStuff napi-build-utils@1.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1762 silly build next-tick@1.0.0
+1763 info linkStuff next-tick@1.0.0
+1764 silly linkStuff next-tick@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1765 silly build es5-ext@0.10.49
+1766 info linkStuff es5-ext@0.10.49
+1767 silly linkStuff es5-ext@0.10.49 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1768 silly build d@0.1.1
+1769 info linkStuff d@0.1.1
+1770 silly linkStuff d@0.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1771 silly build d@1.0.0
+1772 info linkStuff d@1.0.0
+1773 silly linkStuff d@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules as its parent node_modules
+1774 silly build es6-symbol@3.1.1
+1775 info linkStuff es6-symbol@3.1.1
+1776 silly linkStuff es6-symbol@3.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules as its parent node_modules
+1777 silly build es6-iterator@2.0.3
+1778 info linkStuff es6-iterator@2.0.3
+1779 silly linkStuff es6-iterator@2.0.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/es5-ext/node_modules as its parent node_modules
+1780 silly build es6-symbol@2.0.1
+1781 info linkStuff es6-symbol@2.0.1
+1782 silly linkStuff es6-symbol@2.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1783 silly build es6-iterator@0.1.3
+1784 info linkStuff es6-iterator@0.1.3
+1785 silly linkStuff es6-iterator@0.1.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1786 silly build es6-weak-map@0.1.4
+1787 info linkStuff es6-weak-map@0.1.4
+1788 silly linkStuff es6-weak-map@0.1.4 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1789 silly build noop-logger@0.1.1
+1790 info linkStuff noop-logger@0.1.1
+1791 silly linkStuff noop-logger@0.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1792 silly build number-is-nan@1.0.1
+1793 info linkStuff number-is-nan@1.0.1
+1794 silly linkStuff number-is-nan@1.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1795 silly build is-fullwidth-code-point@1.0.0
+1796 info linkStuff is-fullwidth-code-point@1.0.0
+1797 silly linkStuff is-fullwidth-code-point@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1798 silly build object-assign@4.1.1
+1799 info linkStuff object-assign@4.1.1
+1800 silly linkStuff object-assign@4.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1801 silly build os-homedir@1.0.2
+1802 info linkStuff os-homedir@1.0.2
+1803 silly linkStuff os-homedir@1.0.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1804 silly build process-nextick-args@2.0.0
+1805 info linkStuff process-nextick-args@2.0.0
+1806 silly linkStuff process-nextick-args@2.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1807 silly build property-accessors@1.1.3
+1808 info linkStuff property-accessors@1.1.3
+1809 silly linkStuff property-accessors@1.1.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1810 silly build safe-buffer@5.1.2
+1811 info linkStuff safe-buffer@5.1.2
+1812 silly linkStuff safe-buffer@5.1.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1813 silly build semver@5.6.0
+1814 info linkStuff semver@5.6.0
+1815 silly linkStuff semver@5.6.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1816 verbose linkBins [ { semver: './bin/semver' },
+1816 verbose linkBins   '/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/.bin',
+1816 verbose linkBins   false ]
+1817 silly build node-abi@2.7.1
+1818 info linkStuff node-abi@2.7.1
+1819 silly linkStuff node-abi@2.7.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1820 silly build set-blocking@2.0.0
+1821 info linkStuff set-blocking@2.0.0
+1822 silly linkStuff set-blocking@2.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1823 silly build signal-exit@3.0.2
+1824 info linkStuff signal-exit@3.0.2
+1825 silly linkStuff signal-exit@3.0.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1826 silly build simple-concat@1.0.0
+1827 info linkStuff simple-concat@1.0.0
+1828 silly linkStuff simple-concat@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1829 silly build string_decoder@1.1.1
+1830 info linkStuff string_decoder@1.1.1
+1831 silly linkStuff string_decoder@1.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1832 silly build strip-ansi@3.0.1
+1833 info linkStuff strip-ansi@3.0.1
+1834 silly linkStuff strip-ansi@3.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1835 silly build string-width@1.0.2
+1836 info linkStuff string-width@1.0.2
+1837 silly linkStuff string-width@1.0.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1838 silly build strip-json-comments@2.0.1
+1839 info linkStuff strip-json-comments@2.0.1
+1840 silly linkStuff strip-json-comments@2.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1841 silly build rc@1.2.8
+1842 info linkStuff rc@1.2.8
+1843 silly linkStuff rc@1.2.8 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1844 verbose linkBins [ { rc: './cli.js' },
+1844 verbose linkBins   '/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/.bin',
+1844 verbose linkBins   false ]
+1845 silly build to-buffer@1.1.1
+1846 info linkStuff to-buffer@1.1.1
+1847 silly linkStuff to-buffer@1.1.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1848 silly build tunnel-agent@0.6.0
+1849 info linkStuff tunnel-agent@0.6.0
+1850 silly linkStuff tunnel-agent@0.6.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1851 silly build underscore@1.8.3
+1852 info linkStuff underscore@1.8.3
+1853 silly linkStuff underscore@1.8.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/underscore-plus/node_modules as its parent node_modules
+1854 silly build underscore-plus@1.6.8
+1855 info linkStuff underscore-plus@1.6.8
+1856 silly linkStuff underscore-plus@1.6.8 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1857 silly build emissary@1.3.3
+1858 info linkStuff emissary@1.3.3
+1859 silly linkStuff emissary@1.3.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1860 silly build grim@1.5.0
+1861 info linkStuff grim@1.5.0
+1862 silly linkStuff grim@1.5.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1863 silly build space-pen@5.1.2
+1864 info linkStuff space-pen@5.1.2
+1865 silly linkStuff space-pen@5.1.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1866 silly build util-deprecate@1.0.2
+1867 info linkStuff util-deprecate@1.0.2
+1868 silly linkStuff util-deprecate@1.0.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1869 silly build readable-stream@2.3.6
+1870 info linkStuff readable-stream@2.3.6
+1871 silly linkStuff readable-stream@2.3.6 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1872 silly build are-we-there-yet@1.1.5
+1873 info linkStuff are-we-there-yet@1.1.5
+1874 silly linkStuff are-we-there-yet@1.1.5 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1875 silly build bl@1.2.2
+1876 info linkStuff bl@1.2.2
+1877 silly linkStuff bl@1.2.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1878 silly build which-pm-runs@1.0.0
+1879 info linkStuff which-pm-runs@1.0.0
+1880 silly linkStuff which-pm-runs@1.0.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1881 silly build wide-align@1.1.3
+1882 info linkStuff wide-align@1.1.3
+1883 silly linkStuff wide-align@1.1.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1884 silly build gauge@2.7.4
+1885 info linkStuff gauge@2.7.4
+1886 silly linkStuff gauge@2.7.4 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1887 silly build npmlog@4.1.2
+1888 info linkStuff npmlog@4.1.2
+1889 silly linkStuff npmlog@4.1.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1890 silly build wrappy@1.0.2
+1891 info linkStuff wrappy@1.0.2
+1892 silly linkStuff wrappy@1.0.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1893 silly build once@1.4.0
+1894 info linkStuff once@1.4.0
+1895 silly linkStuff once@1.4.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1896 silly build end-of-stream@1.4.1
+1897 info linkStuff end-of-stream@1.4.1
+1898 silly linkStuff end-of-stream@1.4.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1899 silly build pump@2.0.1
+1900 info linkStuff pump@2.0.1
+1901 silly linkStuff pump@2.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1902 silly build simple-get@2.8.1
+1903 info linkStuff simple-get@2.8.1
+1904 silly linkStuff simple-get@2.8.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1905 silly build pump@1.0.3
+1906 info linkStuff pump@1.0.3
+1907 silly linkStuff pump@1.0.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/tar-fs/node_modules as its parent node_modules
+1908 silly build xtend@4.0.1
+1909 info linkStuff xtend@4.0.1
+1910 silly linkStuff xtend@4.0.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1911 silly build tar-stream@1.6.2
+1912 info linkStuff tar-stream@1.6.2
+1913 silly linkStuff tar-stream@1.6.2 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1914 silly build tar-fs@1.16.3
+1915 info linkStuff tar-fs@1.16.3
+1916 silly linkStuff tar-fs@1.16.3 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1917 silly build prebuild-install@5.2.5
+1918 info linkStuff prebuild-install@5.2.5
+1919 silly linkStuff prebuild-install@5.2.5 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1920 verbose linkBins [ { 'prebuild-install': './bin.js' },
+1920 verbose linkBins   '/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/.bin',
+1920 verbose linkBins   false ]
+1921 silly build atom-space-pen-views@2.2.0
+1922 info linkStuff atom-space-pen-views@2.2.0
+1923 silly linkStuff atom-space-pen-views@2.2.0 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1924 silly build node-pty-prebuilt@0.7.6
+1925 info linkStuff node-pty-prebuilt@0.7.6
+1926 silly linkStuff node-pty-prebuilt@0.7.6 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1927 silly build term.js@0.0.7
+1928 info linkStuff term.js@0.0.7
+1929 silly linkStuff term.js@0.0.7 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1930 silly build underscore@1.9.1
+1931 info linkStuff underscore@1.9.1
+1932 silly linkStuff underscore@1.9.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules as its parent node_modules
+1933 silly build platformio-ide-terminal@2.9.1
+1934 info linkStuff platformio-ide-terminal@2.9.1
+1935 silly linkStuff platformio-ide-terminal@2.9.1 has /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules as its parent node_modules
+1936 timing action:build Completed in 23ms
+1937 silly doSerial global-link 688
+1938 silly doParallel update-linked 0
+1939 silly doSerial install 688
+1940 silly install ansi-regex@2.1.1
+1941 info lifecycle ansi-regex@2.1.1~install: ansi-regex@2.1.1
+1942 silly install aproba@1.2.0
+1943 info lifecycle aproba@1.2.0~install: aproba@1.2.0
+1944 silly install buffer-alloc-unsafe@1.1.0
+1945 info lifecycle buffer-alloc-unsafe@1.1.0~install: buffer-alloc-unsafe@1.1.0
+1946 silly install buffer-fill@1.0.0
+1947 info lifecycle buffer-fill@1.0.0~install: buffer-fill@1.0.0
+1948 silly install buffer-alloc@1.2.0
+1949 info lifecycle buffer-alloc@1.2.0~install: buffer-alloc@1.2.0
+1950 silly install chownr@1.1.1
+1951 info lifecycle chownr@1.1.1~install: chownr@1.1.1
+1952 silly install code-point-at@1.1.0
+1953 info lifecycle code-point-at@1.1.0~install: code-point-at@1.1.0
+1954 silly install console-control-strings@1.1.0
+1955 info lifecycle console-control-strings@1.1.0~install: console-control-strings@1.1.0
+1956 silly install core-util-is@1.0.2
+1957 info lifecycle core-util-is@1.0.2~install: core-util-is@1.0.2
+1958 silly install deep-extend@0.6.0
+1959 info lifecycle deep-extend@0.6.0~install: deep-extend@0.6.0
+1960 silly install delegates@1.0.0
+1961 info lifecycle delegates@1.0.0~install: delegates@1.0.0
+1962 silly install detect-libc@1.0.3
+1963 info lifecycle detect-libc@1.0.3~install: detect-libc@1.0.3
+1964 silly install expand-template@2.0.3
+1965 info lifecycle expand-template@2.0.3~install: expand-template@2.0.3
+1966 silly install fs-constants@1.0.0
+1967 info lifecycle fs-constants@1.0.0~install: fs-constants@1.0.0
+1968 silly install fuzzaldrin@2.1.0
+1969 info lifecycle fuzzaldrin@2.1.0~install: fuzzaldrin@2.1.0
+1970 silly install github-from-package@0.0.0
+1971 info lifecycle github-from-package@0.0.0~install: github-from-package@0.0.0
+1972 silly install has-unicode@2.0.1
+1973 info lifecycle has-unicode@2.0.1~install: has-unicode@2.0.1
+1974 silly install inherits@2.0.3
+1975 info lifecycle inherits@2.0.3~install: inherits@2.0.3
+1976 silly install ini@1.3.5
+1977 info lifecycle ini@1.3.5~install: ini@1.3.5
+1978 silly install isarray@1.0.0
+1979 info lifecycle isarray@1.0.0~install: isarray@1.0.0
+1980 silly install jquery@2.1.4
+1981 info lifecycle jquery@2.1.4~install: jquery@2.1.4
+1982 silly install mimic-response@1.0.1
+1983 info lifecycle mimic-response@1.0.1~install: mimic-response@1.0.1
+1984 silly install decompress-response@3.3.0
+1985 info lifecycle decompress-response@3.3.0~install: decompress-response@3.3.0
+1986 silly install minimist@1.2.0
+1987 info lifecycle minimist@1.2.0~install: minimist@1.2.0
+1988 silly install mixto@1.0.0
+1989 info lifecycle mixto@1.0.0~install: mixto@1.0.0
+1990 silly install minimist@0.0.8
+1991 info lifecycle minimist@0.0.8~install: minimist@0.0.8
+1992 silly install mkdirp@0.5.1
+1993 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+1994 silly install nan@2.10.0
+1995 info lifecycle nan@2.10.0~install: nan@2.10.0
+1996 silly install napi-build-utils@1.0.1
+1997 info lifecycle napi-build-utils@1.0.1~install: napi-build-utils@1.0.1
+1998 silly install next-tick@1.0.0
+1999 info lifecycle next-tick@1.0.0~install: next-tick@1.0.0
+2000 silly install es5-ext@0.10.49
+2001 info lifecycle es5-ext@0.10.49~install: es5-ext@0.10.49
+2002 silly install d@0.1.1
+2003 info lifecycle d@0.1.1~install: d@0.1.1
+2004 silly install d@1.0.0
+2005 info lifecycle d@1.0.0~install: d@1.0.0
+2006 silly install es6-symbol@3.1.1
+2007 info lifecycle es6-symbol@3.1.1~install: es6-symbol@3.1.1
+2008 silly install es6-iterator@2.0.3
+2009 info lifecycle es6-iterator@2.0.3~install: es6-iterator@2.0.3
+2010 silly install es6-symbol@2.0.1
+2011 info lifecycle es6-symbol@2.0.1~install: es6-symbol@2.0.1
+2012 silly install es6-iterator@0.1.3
+2013 info lifecycle es6-iterator@0.1.3~install: es6-iterator@0.1.3
+2014 silly install es6-weak-map@0.1.4
+2015 info lifecycle es6-weak-map@0.1.4~install: es6-weak-map@0.1.4
+2016 silly install noop-logger@0.1.1
+2017 info lifecycle noop-logger@0.1.1~install: noop-logger@0.1.1
+2018 silly install number-is-nan@1.0.1
+2019 info lifecycle number-is-nan@1.0.1~install: number-is-nan@1.0.1
+2020 silly install is-fullwidth-code-point@1.0.0
+2021 info lifecycle is-fullwidth-code-point@1.0.0~install: is-fullwidth-code-point@1.0.0
+2022 silly install object-assign@4.1.1
+2023 info lifecycle object-assign@4.1.1~install: object-assign@4.1.1
+2024 silly install os-homedir@1.0.2
+2025 info lifecycle os-homedir@1.0.2~install: os-homedir@1.0.2
+2026 silly install process-nextick-args@2.0.0
+2027 info lifecycle process-nextick-args@2.0.0~install: process-nextick-args@2.0.0
+2028 silly install property-accessors@1.1.3
+2029 info lifecycle property-accessors@1.1.3~install: property-accessors@1.1.3
+2030 silly install safe-buffer@5.1.2
+2031 info lifecycle safe-buffer@5.1.2~install: safe-buffer@5.1.2
+2032 silly install semver@5.6.0
+2033 info lifecycle semver@5.6.0~install: semver@5.6.0
+2034 silly install node-abi@2.7.1
+2035 info lifecycle node-abi@2.7.1~install: node-abi@2.7.1
+2036 silly install set-blocking@2.0.0
+2037 info lifecycle set-blocking@2.0.0~install: set-blocking@2.0.0
+2038 silly install signal-exit@3.0.2
+2039 info lifecycle signal-exit@3.0.2~install: signal-exit@3.0.2
+2040 silly install simple-concat@1.0.0
+2041 info lifecycle simple-concat@1.0.0~install: simple-concat@1.0.0
+2042 silly install string_decoder@1.1.1
+2043 info lifecycle string_decoder@1.1.1~install: string_decoder@1.1.1
+2044 silly install strip-ansi@3.0.1
+2045 info lifecycle strip-ansi@3.0.1~install: strip-ansi@3.0.1
+2046 silly install string-width@1.0.2
+2047 info lifecycle string-width@1.0.2~install: string-width@1.0.2
+2048 silly install strip-json-comments@2.0.1
+2049 info lifecycle strip-json-comments@2.0.1~install: strip-json-comments@2.0.1
+2050 silly install rc@1.2.8
+2051 info lifecycle rc@1.2.8~install: rc@1.2.8
+2052 silly install to-buffer@1.1.1
+2053 info lifecycle to-buffer@1.1.1~install: to-buffer@1.1.1
+2054 silly install tunnel-agent@0.6.0
+2055 info lifecycle tunnel-agent@0.6.0~install: tunnel-agent@0.6.0
+2056 silly install underscore@1.8.3
+2057 info lifecycle underscore@1.8.3~install: underscore@1.8.3
+2058 silly install underscore-plus@1.6.8
+2059 info lifecycle underscore-plus@1.6.8~install: underscore-plus@1.6.8
+2060 silly install emissary@1.3.3
+2061 info lifecycle emissary@1.3.3~install: emissary@1.3.3
+2062 silly install grim@1.5.0
+2063 info lifecycle grim@1.5.0~install: grim@1.5.0
+2064 silly install space-pen@5.1.2
+2065 info lifecycle space-pen@5.1.2~install: space-pen@5.1.2
+2066 silly install util-deprecate@1.0.2
+2067 info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+2068 silly install readable-stream@2.3.6
+2069 info lifecycle readable-stream@2.3.6~install: readable-stream@2.3.6
+2070 silly install are-we-there-yet@1.1.5
+2071 info lifecycle are-we-there-yet@1.1.5~install: are-we-there-yet@1.1.5
+2072 silly install bl@1.2.2
+2073 info lifecycle bl@1.2.2~install: bl@1.2.2
+2074 silly install which-pm-runs@1.0.0
+2075 info lifecycle which-pm-runs@1.0.0~install: which-pm-runs@1.0.0
+2076 silly install wide-align@1.1.3
+2077 info lifecycle wide-align@1.1.3~install: wide-align@1.1.3
+2078 silly install gauge@2.7.4
+2079 info lifecycle gauge@2.7.4~install: gauge@2.7.4
+2080 silly install npmlog@4.1.2
+2081 info lifecycle npmlog@4.1.2~install: npmlog@4.1.2
+2082 silly install wrappy@1.0.2
+2083 info lifecycle wrappy@1.0.2~install: wrappy@1.0.2
+2084 silly install once@1.4.0
+2085 info lifecycle once@1.4.0~install: once@1.4.0
+2086 silly install end-of-stream@1.4.1
+2087 info lifecycle end-of-stream@1.4.1~install: end-of-stream@1.4.1
+2088 silly install pump@2.0.1
+2089 info lifecycle pump@2.0.1~install: pump@2.0.1
+2090 silly install simple-get@2.8.1
+2091 info lifecycle simple-get@2.8.1~install: simple-get@2.8.1
+2092 silly install pump@1.0.3
+2093 info lifecycle pump@1.0.3~install: pump@1.0.3
+2094 silly install xtend@4.0.1
+2095 info lifecycle xtend@4.0.1~install: xtend@4.0.1
+2096 silly install tar-stream@1.6.2
+2097 info lifecycle tar-stream@1.6.2~install: tar-stream@1.6.2
+2098 silly install tar-fs@1.16.3
+2099 info lifecycle tar-fs@1.16.3~install: tar-fs@1.16.3
+2100 silly install prebuild-install@5.2.5
+2101 info lifecycle prebuild-install@5.2.5~install: prebuild-install@5.2.5
+2102 silly install atom-space-pen-views@2.2.0
+2103 info lifecycle atom-space-pen-views@2.2.0~install: atom-space-pen-views@2.2.0
+2104 silly install node-pty-prebuilt@0.7.6
+2105 info lifecycle node-pty-prebuilt@0.7.6~install: node-pty-prebuilt@0.7.6
+2106 verbose lifecycle node-pty-prebuilt@0.7.6~install: unsafe-perm in lifecycle false
+2107 verbose lifecycle node-pty-prebuilt@0.7.6~install: PATH: /usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/node-pty-prebuilt/node_modules/.bin:/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/.bin:/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.bin:/usr/share/atom/resources/app/apm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+2108 verbose lifecycle node-pty-prebuilt@0.7.6~install: CWD: /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/platformio-ide-terminal/node_modules/node-pty-prebuilt
+2109 silly lifecycle node-pty-prebuilt@0.7.6~install: Args: [ '-c', 'prebuild-install || node scripts/install.js' ]
+2110 silly lifecycle node-pty-prebuilt@0.7.6~install: Returned: code: 1  signal: null
+2111 info lifecycle node-pty-prebuilt@0.7.6~install: Failed to exec install script
+2112 timing action:install Completed in 72ms
+2113 verbose unlock done using /home/felipe/.atom/.apm/_locks/staging-9679dfb00e853fc9.lock for /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/node_modules/.staging
+2114 timing stage:rollbackFailedOptional Completed in 203ms
+2115 timing stage:runTopLevelLifecycles Completed in 12592ms
+2116 silly saveTree apm-install-dir-119217-13055-1rbu35z.hs6ck
+2116 silly saveTree └─┬ platformio-ide-terminal@2.9.1
+2116 silly saveTree   ├─┬ atom-space-pen-views@2.2.0
+2116 silly saveTree   │ ├── fuzzaldrin@2.1.0
+2116 silly saveTree   │ └─┬ space-pen@5.1.2
+2116 silly saveTree   │   ├─┬ grim@1.5.0
+2116 silly saveTree   │   │ └─┬ emissary@1.3.3
+2116 silly saveTree   │   │   ├─┬ es6-weak-map@0.1.4
+2116 silly saveTree   │   │   │ ├─┬ d@0.1.1
+2116 silly saveTree   │   │   │ │ └─┬ es5-ext@0.10.49
+2116 silly saveTree   │   │   │ │   ├─┬ es6-iterator@2.0.3
+2116 silly saveTree   │   │   │ │   │ ├── d@1.0.0
+2116 silly saveTree   │   │   │ │   │ └── es6-symbol@3.1.1
+2116 silly saveTree   │   │   │ │   ├── es6-symbol@3.1.1
+2116 silly saveTree   │   │   │ │   └── next-tick@1.0.0
+2116 silly saveTree   │   │   │ ├── es5-ext@0.10.49
+2116 silly saveTree   │   │   │ ├─┬ es6-iterator@0.1.3
+2116 silly saveTree   │   │   │ │ └── es6-symbol@2.0.1
+2116 silly saveTree   │   │   │ └── es6-symbol@2.0.1
+2116 silly saveTree   │   │   ├── mixto@1.0.0
+2116 silly saveTree   │   │   ├── property-accessors@1.1.3
+2116 silly saveTree   │   │   └─┬ underscore-plus@1.6.8
+2116 silly saveTree   │   │     └── underscore@1.8.3
+2116 silly saveTree   │   ├── jquery@2.1.4
+2116 silly saveTree   │   └── underscore-plus@1.6.8
+2116 silly saveTree   ├─┬ node-pty-prebuilt@0.7.6
+2116 silly saveTree   │ ├── nan@2.10.0
+2116 silly saveTree   │ └─┬ prebuild-install@5.2.5
+2116 silly saveTree   │   ├── detect-libc@1.0.3
+2116 silly saveTree   │   ├── expand-template@2.0.3
+2116 silly saveTree   │   ├── github-from-package@0.0.0
+2116 silly saveTree   │   ├── minimist@1.2.0
+2116 silly saveTree   │   ├─┬ mkdirp@0.5.1
+2116 silly saveTree   │   │ └── minimist@0.0.8
+2116 silly saveTree   │   ├── napi-build-utils@1.0.1
+2116 silly saveTree   │   ├─┬ node-abi@2.7.1
+2116 silly saveTree   │   │ └── semver@5.6.0
+2116 silly saveTree   │   ├── noop-logger@0.1.1
+2116 silly saveTree   │   ├─┬ npmlog@4.1.2
+2116 silly saveTree   │   │ ├─┬ are-we-there-yet@1.1.5
+2116 silly saveTree   │   │ │ ├── delegates@1.0.0
+2116 silly saveTree   │   │ │ └─┬ readable-stream@2.3.6
+2116 silly saveTree   │   │ │   ├── core-util-is@1.0.2
+2116 silly saveTree   │   │ │   ├── inherits@2.0.3
+2116 silly saveTree   │   │ │   ├── isarray@1.0.0
+2116 silly saveTree   │   │ │   ├── process-nextick-args@2.0.0
+2116 silly saveTree   │   │ │   ├── safe-buffer@5.1.2
+2116 silly saveTree   │   │ │   ├── string_decoder@1.1.1
+2116 silly saveTree   │   │ │   └── util-deprecate@1.0.2
+2116 silly saveTree   │   │ ├── console-control-strings@1.1.0
+2116 silly saveTree   │   │ ├─┬ gauge@2.7.4
+2116 silly saveTree   │   │ │ ├── aproba@1.2.0
+2116 silly saveTree   │   │ │ ├── has-unicode@2.0.1
+2116 silly saveTree   │   │ │ ├── object-assign@4.1.1
+2116 silly saveTree   │   │ │ ├── signal-exit@3.0.2
+2116 silly saveTree   │   │ │ ├─┬ string-width@1.0.2
+2116 silly saveTree   │   │ │ │ ├── code-point-at@1.1.0
+2116 silly saveTree   │   │ │ │ ├─┬ is-fullwidth-code-point@1.0.0
+2116 silly saveTree   │   │ │ │ │ └── number-is-nan@1.0.1
+2116 silly saveTree   │   │ │ │ └─┬ strip-ansi@3.0.1
+2116 silly saveTree   │   │ │ │   └── ansi-regex@2.1.1
+2116 silly saveTree   │   │ │ ├── strip-ansi@3.0.1
+2116 silly saveTree   │   │ │ └── wide-align@1.1.3
+2116 silly saveTree   │   │ └── set-blocking@2.0.0
+2116 silly saveTree   │   ├── os-homedir@1.0.2
+2116 silly saveTree   │   ├─┬ pump@2.0.1
+2116 silly saveTree   │   │ ├─┬ end-of-stream@1.4.1
+2116 silly saveTree   │   │ │ └─┬ once@1.4.0
+2116 silly saveTree   │   │ │   └── wrappy@1.0.2
+2116 silly saveTree   │   │ └── once@1.4.0
+2116 silly saveTree   │   ├─┬ rc@1.2.8
+2116 silly saveTree   │   │ ├── deep-extend@0.6.0
+2116 silly saveTree   │   │ ├── ini@1.3.5
+2116 silly saveTree   │   │ └── strip-json-comments@2.0.1
+2116 silly saveTree   │   ├─┬ simple-get@2.8.1
+2116 silly saveTree   │   │ ├─┬ decompress-response@3.3.0
+2116 silly saveTree   │   │ │ └── mimic-response@1.0.1
+2116 silly saveTree   │   │ └── simple-concat@1.0.0
+2116 silly saveTree   │   ├─┬ tar-fs@1.16.3
+2116 silly saveTree   │   │ ├── chownr@1.1.1
+2116 silly saveTree   │   │ ├── pump@1.0.3
+2116 silly saveTree   │   │ └─┬ tar-stream@1.6.2
+2116 silly saveTree   │   │   ├── bl@1.2.2
+2116 silly saveTree   │   │   ├─┬ buffer-alloc@1.2.0
+2116 silly saveTree   │   │   │ ├── buffer-alloc-unsafe@1.1.0
+2116 silly saveTree   │   │   │ └── buffer-fill@1.0.0
+2116 silly saveTree   │   │   ├── fs-constants@1.0.0
+2116 silly saveTree   │   │   ├── to-buffer@1.1.1
+2116 silly saveTree   │   │   └── xtend@4.0.1
+2116 silly saveTree   │   ├── tunnel-agent@0.6.0
+2116 silly saveTree   │   └── which-pm-runs@1.0.0
+2116 silly saveTree   ├── term.js@0.0.7
+2116 silly saveTree   └── underscore@1.9.1
+2117 warn enoent ENOENT: no such file or directory, open '/tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck/package.json'
+2118 verbose enoent This is related to npm not being able to find a file.
+2119 warn apm-install-dir-119217-13055-1rbu35z.hs6ck No description
+2120 warn apm-install-dir-119217-13055-1rbu35z.hs6ck No repository field.
+2121 warn apm-install-dir-119217-13055-1rbu35z.hs6ck No README data
+2122 warn apm-install-dir-119217-13055-1rbu35z.hs6ck No license field.
+2123 verbose stack Error: node-pty-prebuilt@0.7.6 install: `prebuild-install || node scripts/install.js`
+2123 verbose stack Exit status 1
+2123 verbose stack     at EventEmitter.<anonymous> (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+2123 verbose stack     at emitTwo (events.js:126:13)
+2123 verbose stack     at EventEmitter.emit (events.js:214:7)
+2123 verbose stack     at ChildProcess.<anonymous> (/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+2123 verbose stack     at emitTwo (events.js:126:13)
+2123 verbose stack     at ChildProcess.emit (events.js:214:7)
+2123 verbose stack     at maybeClose (internal/child_process.js:925:16)
+2123 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+2124 verbose pkgid node-pty-prebuilt@0.7.6
+2125 verbose cwd /tmp/apm-install-dir-119217-13055-1rbu35z.hs6ck
+2126 verbose Linux 4.15.0-46-generic
+2127 verbose argv "/usr/share/atom/resources/app/apm/bin/node" "/usr/share/atom/resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/home/felipe/.atom/.apm/.apmrc" "--userconfig" "/home/felipe/.atom/.apmrc" "install" "https://www.atom.io/api/packages/platformio-ide-terminal/versions/2.9.1/tarball" "--runtime=electron" "--target=2.0.16" "--dist-url=https://atom.io/download/electron" "--arch=x64" "--global-style"
+2128 verbose node v8.9.3
+2129 verbose npm  v6.2.0
+2130 error code ELIFECYCLE
+2131 error errno 1
+2132 error node-pty-prebuilt@0.7.6 install: `prebuild-install || node scripts/install.js`
+2132 error Exit status 1
+2133 error Failed at the node-pty-prebuilt@0.7.6 install script.
+2133 error This is probably not a problem with npm. There is likely additional logging output above.
+2134 verbose exit [ 1, true ]

@@ -1,4 +1,10 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "379b1422-5be6-4ed1-a071-e7517fe3bc4e"
+  "bracket-colorizer": {}
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
   core:
     disabledPackages: [
       "language-gfm"
@@ -11,14 +17,24 @@
       "monokai"
     ]
   editor:
-    fontSize: 18
+    fontSize: 21
     lineHeight: 1.2
   emmet: {}
   "exception-reporting":
     userId: "d083badf-4efd-4e9d-b292-11772bd96e96"
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
+      ignoreFixableRulesWhileTyping: true
+    global: {}
+  "linter-ui-default":
+    panelHeight: 599
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "remote-ftp":
-    connector:
-      autoUploadOnSave: "never"
+    connector: {}
     notifications:
       enableTransfer: true
       enableWatchFileChange: true

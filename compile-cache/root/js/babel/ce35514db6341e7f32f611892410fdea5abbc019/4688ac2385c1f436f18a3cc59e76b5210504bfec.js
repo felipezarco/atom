@@ -1,0 +1,11 @@
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+/** @babel */
+
+exports['default'] = function () {
+  atom.config.unset('linter-js-standard.honorStyleSettings');
+};
+
+module.exports = exports['default'];
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2ZlbGlwZS8uYXRvbS9wYWNrYWdlcy9saW50ZXItanMtc3RhbmRhcmQvbGliL3V0aWxzL2RlcHJlY2F0ZS1jb25maWcuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7cUJBRWUsWUFBWTtBQUN6QixNQUFJLENBQUMsTUFBTSxDQUFDLEtBQUssQ0FBQyx1Q0FBdUMsQ0FBQyxDQUFBO0NBQzNEIiwiZmlsZSI6Ii9ob21lL2ZlbGlwZS8uYXRvbS9wYWNrYWdlcy9saW50ZXItanMtc3RhbmRhcmQvbGliL3V0aWxzL2RlcHJlY2F0ZS1jb25maWcuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiogQGJhYmVsICovXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uICgpIHtcbiAgYXRvbS5jb25maWcudW5zZXQoJ2xpbnRlci1qcy1zdGFuZGFyZC5ob25vclN0eWxlU2V0dGluZ3MnKVxufVxuIl19

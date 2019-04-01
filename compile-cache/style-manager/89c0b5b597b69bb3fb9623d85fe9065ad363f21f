@@ -1,0 +1,1 @@
+{"source":"atom-text-editor .cursor {\n  border-color: yellow;\n  border: 1px solid;\n}\n.tree-view {\n  font-size: 17px;\n}\n.status-bar {\n  font-size: 14px;\n}\n.editor {\n  line-height: 1em;\n}\n"}
