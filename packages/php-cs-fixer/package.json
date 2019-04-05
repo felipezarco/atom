@@ -1,0 +1,68 @@
+{
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/php-cs-fixer.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  },
+  "_from": "https://www.atom.io/api/packages/php-cs-fixer/versions/4.1.1/tarball",
+  "_id": "php-cs-fixer@4.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-w0X7hWyc4nhgvjIhYafe9LkBuVXI0Dv3ENLwWnlF/SGgEI0LPhYyZ7I9Y3+Y+HoxYWiILxoaC5wVbLM2zWUFBQ==",
+  "_location": "/php-cs-fixer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/php-cs-fixer/versions/4.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/php-cs-fixer/versions/4.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/php-cs-fixer/versions/4.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/php-cs-fixer/versions/4.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/php-cs-fixer/versions/4.1.1/tarball",
+  "_shasum": "a533eaa9ad98562a5c4f5f569c36bf43e9627bce",
+  "_spec": "https://www.atom.io/api/packages/php-cs-fixer/versions/4.1.1/tarball",
+  "_where": "/tmp/apm-install-dir-119210-12820-7j0ral.qt27g",
+  "author": {
+    "name": "Matthias Pfefferle",
+    "url": "http://pfefferle.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/pfefferle/atom-php-cs-fixer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Run the 'PHP Coding Standards Fixer' within Atom",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0",
+    "php": ">=5.3.6",
+    "php-cs-fixer": ">=2.0.0"
+  },
+  "homepage": "https://github.com/pfefferle/atom-php-cs-fixer",
+  "keywords": [
+    "phpcs",
+    "php",
+    "fixer",
+    "psr",
+    "php-cs"
+  ],
+  "license": "MIT",
+  "main": "./lib/php-cs-fixer",
+  "name": "php-cs-fixer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfefferle/atom-php-cs-fixer.git"
+  },
+  "version": "4.1.1"
+}

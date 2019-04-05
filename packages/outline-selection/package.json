@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/outline-selection/versions/0.3.2/tarball",
+  "_id": "outline-selection@0.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-wvJt6e9b3K4RK9LFTGGZTcTOWmYBbb0usNK+ZEH3THOHGpXbX5YNgHFcK8yU7OkFYPyx8rNFs82Y/wvhrp84lQ==",
+  "_location": "/outline-selection",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/outline-selection/versions/0.3.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/outline-selection/versions/0.3.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/outline-selection/versions/0.3.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/outline-selection/versions/0.3.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/outline-selection/versions/0.3.2/tarball",
+  "_shasum": "370abad5de8bd0c96f53093f83efd59f7546eec2",
+  "_spec": "https://www.atom.io/api/packages/outline-selection/versions/0.3.2/tarball",
+  "_where": "/tmp/apm-install-dir-119229-3401-1eyxqja.q6zl",
+  "bugs": {
+    "url": "https://github.com/mupchrch/outline-selection/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Outlines selections with a custom border.",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mupchrch/outline-selection#readme",
+  "keywords": [
+    "outline",
+    "select",
+    "selection",
+    "selected",
+    "border",
+    "highlight"
+  ],
+  "license": "MIT",
+  "main": "./lib/outline-selection",
+  "name": "outline-selection",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mupchrch/outline-selection.git"
+  },
+  "version": "0.3.2"
+}

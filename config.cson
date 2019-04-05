@@ -17,7 +17,7 @@
       "monokai"
     ]
   editor:
-    fontSize: 21
+    fontSize: 20
     lineHeight: 1.2
   emmet: {}
   "exception-reporting":
@@ -43,5 +43,7 @@
       position: "right"
   "sync-settings":
     _lastBackupHash: "a3d3e978aee0e2ce865aae64f6ba7efe16687141"
-    gistId: "34d1e277778998425c89dd3ddf20f9e6"
+    gistId: "eb9e993e5216222949fafc27e75b715e"
     personalAccessToken: "3ce5d2375d332f5d35787b3c4bd2a6440a38f421"
+  welcome:
+    showOnStartup: false

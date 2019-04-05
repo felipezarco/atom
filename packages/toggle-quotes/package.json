@@ -1,0 +1,65 @@
+{
+  "_from": "https://www.atom.io/api/packages/toggle-quotes/versions/1.1.3/tarball",
+  "_id": "toggle-quotes@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-MTHD5z9tWpp/oNmzV6PiKqX6GN2+TZA9rfsF9xcmD/sgxkI/rLsAvroGXw7H4xzrY+wntjjNoyxohvbMOAwA7A==",
+  "_location": "/toggle-quotes",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/toggle-quotes/versions/1.1.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/toggle-quotes/versions/1.1.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/toggle-quotes/versions/1.1.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/toggle-quotes/versions/1.1.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/toggle-quotes/versions/1.1.3/tarball",
+  "_shasum": "eb653de05bf506cb6d42b7474a8169ba24ce4d90",
+  "_spec": "https://www.atom.io/api/packages/toggle-quotes/versions/1.1.3/tarball",
+  "_where": "/tmp/apm-install-dir-11929-18892-g90ldt.dhdfw",
+  "activationCommands": {
+    "atom-text-editor": [
+      "toggle-quotes:toggle"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/atom/toggle-quotes/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Quickly toggle between single and double quotes",
+  "devDependencies": {
+    "standard": "^5.1.0"
+  },
+  "engines": {
+    "atom": "^1.0.8"
+  },
+  "homepage": "https://github.com/atom/toggle-quotes#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "toggle-quotes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/toggle-quotes.git"
+  },
+  "standard": {
+    "globals": [
+      "advanceClock",
+      "atom",
+      "beforeEach",
+      "expect",
+      "describe",
+      "it",
+      "jasmine",
+      "MouseEvent",
+      "runs",
+      "spyOn",
+      "waits",
+      "waitsForPromise"
+    ]
+  },
+  "version": "1.1.3"
+}

@@ -1,0 +1,54 @@
+.syntax--source.syntax--python {
+  .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
+    color: @cb-blue;
+  }
+  .syntax--entity {
+    &.syntax--other {
+      &.syntax--attribute-name {
+        color: @cb-green;
+      }
+      &.syntax--inherited-class {
+        color: @cb-red;
+      }
+    }
+  }
+  .syntax--support {
+    &.syntax--function {
+      color: @cb-yellow;
+      &.syntax--builtin {
+        color: @cb-yellow;
+      }
+    }
+    &.syntax--type {
+      color: @cb-green;
+      &.syntax--exception.syntax--python {
+        color: @cb-yellow;
+      }
+      &.syntax--python {
+        color: @cb-yellow;
+      }
+    }
+    &.syntax--constant {
+      color: @cb-red;
+    }
+    &.syntax--class,
+    &.syntax--variable,
+    &.syntax--other.syntax--module {
+      color: @cb-yellow;
+    }
+  }
+  .syntax--variable {
+    &.syntax--parameter,
+    &.syntax--other {
+      color: @cb-red;
+    }
+  }
+  .syntax--constant {
+    &.syntax--language,
+    &.syntax--character,
+    &.syntax--numeric,
+    &.syntax--other {
+      color: @cb-orange;
+    }
+  }
+}

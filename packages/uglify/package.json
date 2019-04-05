@@ -1,0 +1,71 @@
+{
+  "_from": "https://www.atom.io/api/packages/uglify/versions/1.3.1/tarball",
+  "_id": "uglify@1.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-+Q3dobFIwHG88pExNJ7XEEHD/dpiktyncS4UHUNHfLhNgvNfmwDzQ54q51YWUhDRceGHCsMxbW+4ziezAAZiCw==",
+  "_location": "/uglify",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/uglify/versions/1.3.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/uglify/versions/1.3.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/uglify/versions/1.3.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/uglify/versions/1.3.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/uglify/versions/1.3.1/tarball",
+  "_shasum": "4a008156c90c6db476e08c3106110ade3cbc753c",
+  "_spec": "https://www.atom.io/api/packages/uglify/versions/1.3.1/tarball",
+  "_where": "/tmp/apm-install-dir-119125-21505-ue98kc.p93d",
+  "activationCommands": {
+    "atom-workspace": "uglify"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/atom-uglify/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "loophole": "^1.1.0",
+    "uglify-js": "^2.5.0"
+  },
+  "deprecated": false,
+  "description": "Minify JavaScript",
+  "devDependencies": {
+    "xo": "*"
+  },
+  "engines": {
+    "atom": ">=1.13.0"
+  },
+  "homepage": "https://github.com/sindresorhus/atom-uglify#readme",
+  "keywords": [
+    "javascript",
+    "minify",
+    "compress",
+    "uglify"
+  ],
+  "license": "MIT",
+  "name": "uglify",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/atom-uglify.git"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "version": "1.3.1",
+  "xo": {
+    "esnext": true,
+    "globals": [
+      "atom"
+    ]
+  }
+}

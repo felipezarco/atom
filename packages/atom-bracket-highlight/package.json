@@ -1,0 +1,40 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-bracket-highlight/versions/0.3.2/tarball",
+  "_id": "atom-bracket-highlight@0.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-0C+eNHJx7PtFps3PgrIrZFP8TIaulByMwl7cGu8JlTc+AR09WhDvWPtJ2/LtwgDlcL4zBWE5/zb5htCCTJ2vZw==",
+  "_location": "/atom-bracket-highlight",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-bracket-highlight/versions/0.3.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-bracket-highlight/versions/0.3.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-bracket-highlight/versions/0.3.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-bracket-highlight/versions/0.3.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-bracket-highlight/versions/0.3.2/tarball",
+  "_shasum": "d28c5145b3de849cbd81cc258f3c1aaeb1df9e4e",
+  "_spec": "https://www.atom.io/api/packages/atom-bracket-highlight/versions/0.3.2/tarball",
+  "_where": "/tmp/apm-install-dir-11929-20118-lkpbv0.593wf",
+  "bugs": {
+    "url": "https://github.com/pvorona/atom-bracket-highlight/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Animates bracket highlighting",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/pvorona/atom-bracket-highlight#readme",
+  "license": "MIT",
+  "name": "atom-bracket-highlight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvorona/atom-bracket-highlight.git"
+  },
+  "version": "0.3.2"
+}

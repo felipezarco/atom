@@ -1,0 +1,55 @@
+{
+  "_from": "https://www.atom.io/api/packages/colorblind-wombat-dark-syntax/versions/0.6.0/tarball",
+  "_id": "colorblind-wombat-dark-syntax@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-zV03JosX3aR+U6+oieKTMwD33Hi/Hg1n/rFxsSikgfKX1xRcupSPZ1HLFA0OECEMJK4LKujxpKuAuWLIOseC/Q==",
+  "_location": "/colorblind-wombat-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/colorblind-wombat-dark-syntax/versions/0.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/colorblind-wombat-dark-syntax/versions/0.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/colorblind-wombat-dark-syntax/versions/0.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/colorblind-wombat-dark-syntax/versions/0.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/colorblind-wombat-dark-syntax/versions/0.6.0/tarball",
+  "_shasum": "f87a66e423db0802d6bd095d1d57f73668488473",
+  "_spec": "https://www.atom.io/api/packages/colorblind-wombat-dark-syntax/versions/0.6.0/tarball",
+  "_where": "/tmp/apm-install-dir-119229-7123-1jvsthe.ifzw",
+  "bugs": {
+    "url": "https://github.com/mdburnes/colorblind-wombat-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A syntax theme designed for colorblind people. Special attention paid to css, javascript, json, markdown, php, and python.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mdburnes/colorblind-wombat-dark-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "colorblind",
+    "css",
+    "javascript",
+    "json",
+    "markdown",
+    "php",
+    "python",
+    "wombat",
+    "dark",
+    "color impaired"
+  ],
+  "license": "MIT",
+  "name": "colorblind-wombat-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdburnes/colorblind-wombat-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.6.0"
+}

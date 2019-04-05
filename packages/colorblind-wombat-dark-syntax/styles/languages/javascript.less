@@ -1,0 +1,92 @@
+.syntax--source.syntax--js {
+  .syntax--constant {
+    &.syntax--language,
+    &.syntax--character,
+    &.syntax--numeric,
+    &.syntax--other {
+      color: @cb-orange;
+    }
+  }
+  .syntax--support {
+    &.syntax--function {
+      color: @cb-yellow;
+      &.syntax--builtin {
+        color: @cb-yellow;
+      }
+    }
+    &.syntax--type {
+      color: @cb-green;
+      &.syntax--exception.syntax--python {
+        color: @cb-yellow;
+      }
+      &.syntax--python {
+        color: @cb-yellow;
+      }
+    }
+    &.syntax--constant {
+      color: @cb-red;
+    }
+    &.syntax--class,
+    &.syntax--variable,
+    &.syntax--other.syntax--module {
+      color: @cb-yellow;
+    }
+  }
+  .syntax--entity {
+    &.syntax--name {
+      color: @cb-text;
+      &.syntax--type {
+        color: @cb-yellow;
+      }
+    }
+    &.syntax--other {
+      &.syntax--attribute-name {
+        color: @cb-green;
+      }
+      &.syntax--inherited-class {
+        color: @cb-red;
+      }
+    }
+  }
+  .syntax--keyword {
+    color: @cb-blue;
+    &.syntax--control {
+      color: @cb-green;
+      &.syntax--regexp {
+        color: @cb-red;
+      }
+    }
+    &.syntax--operator.syntax--new {
+      color: @cb-green;
+    }
+  }
+  .syntax--variable {
+    &.syntax--parameter,
+    &.syntax--other {
+      color: @cb-red;
+    }
+  }
+  .syntax--comma {
+    color: @cb-text;
+  }
+  .syntax--regexp {
+    color: @cb-red;
+  }
+  .syntax--punctuation.syntax--terminator.syntax--statement {
+    color: @cb-text;
+  }
+  .syntax--meta {
+    &.syntax--brace {
+      color: @cb-text;
+      &.syntax--square {
+        color: @cb-blue;
+      }
+      &.syntax--curly {
+        color: @cb-blue;
+      }
+    }
+    &.syntax--delimiter.syntax--method.syntax--period {
+      color: @cb-text;
+    }
+  }
+}
