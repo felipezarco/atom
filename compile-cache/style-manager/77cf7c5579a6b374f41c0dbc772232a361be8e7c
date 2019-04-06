@@ -1,0 +1,1 @@
+{"source":"@syntax-cursor-color : #d5fdd5 // @ghost-white;\n.minimap .highlight-selected {\n  background: #fff;\n}\n.minimap .highlight-selected.selected {\n  background: rgba(255, 255, 255, 0.5);\n}\n"}
