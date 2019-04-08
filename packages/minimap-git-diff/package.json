@@ -1,0 +1,56 @@
+{
+  "_from": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.1/tarball",
+  "_id": "minimap-git-diff@4.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-R1YRuIPaYi9oOGesHsDDTFgXgO6qglQsuN5VwW01bislUFClVJmocAKoHH2VtiZ8KIOVVtRb09KRRQ0nE3oYxw==",
+  "_location": "/minimap-git-diff",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.1/tarball",
+  "_shasum": "351b314abee91e17e3688479ada6b6fd49e94d89",
+  "_spec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.1/tarball",
+  "_where": "/tmp/apm-install-dir-11937-19822-1ximrvf.ps6t",
+  "author": {
+    "name": "Cédric Néhémie",
+    "email": "cedric.nehemie@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/atom-minimap/minimap-git-diff/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "fs-plus": "^2.0.0",
+    "mixto": "1.x"
+  },
+  "deprecated": false,
+  "description": "A minimap binding for the git diff package",
+  "engines": {
+    "atom": ">0.125.0"
+  },
+  "homepage": "https://github.com/atom-minimap/minimap-git-diff#readme",
+  "license": "MIT",
+  "main": "./lib/minimap-git-diff",
+  "name": "minimap-git-diff",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-minimap/minimap-git-diff.git"
+  },
+  "version": "4.3.1"
+}

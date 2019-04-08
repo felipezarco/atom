@@ -17,7 +17,7 @@ export default {
     brackets: {
       title: 'Brackets to match',
       description: "Should be matching pairs like '()', and '{}'",
-      default: ['{}', '()', '[]'],
+      default: ['{}'],
       type: 'array',
       items: {
         type: 'string'

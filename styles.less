@@ -19,6 +19,13 @@ atom-text-editor {
   font-size: 17px;
 }
 
+// TREE VIEW & STATUS FONT
+
+.tree-view, .tree-view-root,
+atom-panel-container.footer {
+  font-family: 'iA Writer Mono S', monospace;
+}
+
 .status-bar {
   font-size: 20px;
 }
@@ -43,6 +50,22 @@ atom-text-editor.editor {
   .bracket-colorizer-color5,
   .bracket-colorizer-color7,
   .bracket-colorizer-color9 {
-    color: #33FF00; // hacking green;
+    color: #87CEFA
   }
+}
+
+
+// LINE NUMBERS
+
+atom-text-editor .line-number {
+  color: #e0fde0;
+  opacity: 0.8;
+}
+
+
+// BRACKET MATHING LINE NUMBER
+
+.line-number.bracket-matcher.bracket-matcher {
+  background-color: #000000;
+  color: #33FF00; //  hacking green;
 }

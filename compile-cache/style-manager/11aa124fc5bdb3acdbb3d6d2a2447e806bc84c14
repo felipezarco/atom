@@ -1,0 +1,1 @@
+{"source":"@syntax-cursor-color : #d5fdd5 // @ghost-white;\n.minimap .search-result {\n  background: white;\n}\n"}

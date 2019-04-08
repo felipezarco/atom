@@ -1,0 +1,1 @@
+{"source":".minimap-selection .region {\n  background: #4182C4;\n}\n.minimap-selection .region-outline {\n  background: #aaa;\n}\n.minimap-selection .cursor-line {\n  background: #4182C4;\n}\n"}

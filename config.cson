@@ -6,6 +6,7 @@
   "bracket-matcher":
     highlightMatchingLineNumber: true
   core:
+    allowPendingPaneItems: false
     disabledPackages: [
       "language-gfm"
       "trailing-spaces"
@@ -17,11 +18,15 @@
       "monokai"
     ]
   editor:
-    fontSize: 20
+    fontSize: 24
     lineHeight: 1.2
   emmet: {}
   "exception-reporting":
     userId: "d083badf-4efd-4e9d-b292-11772bd96e96"
+  fonts:
+    fontFamily: "iA Writer Mono S"
+  "git-blame":
+    columnWidth: 184
   "linter-eslint":
     autofix:
       fixOnSave: true
@@ -31,8 +36,16 @@
     panelHeight: 599
   minimap:
     plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
   "remote-ftp":
     connector: {}
     notifications:
