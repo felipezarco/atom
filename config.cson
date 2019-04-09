@@ -1,4 +1,8 @@
 "*":
+  "activate-power-mode":
+    plugins:
+      playAudio: true
+      screenShake: true
   "atom-beautify":
     general:
       _analyticsUserId: "379b1422-5be6-4ed1-a071-e7517fe3bc4e"
@@ -18,7 +22,7 @@
       "monokai"
     ]
   editor:
-    fontSize: 24
+    fontSize: 21
     lineHeight: 1.2
   emmet: {}
   "exception-reporting":

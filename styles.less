@@ -1,38 +1,27 @@
 
-// style UI elements inside atom-text-editor
 atom-text-editor {
-  // .gutter {
-  //   color: #ffffff;
-  // }
-
   .cursor {
-    border-color: yellow;
+    border-color: #33FF00;
   }
 }
 
-.atom-text-editor .gutter, atom-text-editor .gutter {
-  // background-color: #00001A;
-}
-
-// style the background color of the tree view
-.tree-view {
-  font-size: 17px;
-}
-
-// TREE VIEW & STATUS FONT
 
 .tree-view, .tree-view-root,
 atom-panel-container.footer {
   font-family: 'iA Writer Mono S', monospace;
 }
 
-.status-bar {
-  font-size: 20px;
+.tree-view {
+  font-size: 17px;
 }
 
 .editor {
   line-height: 1em;
-  // background-color: #00001A;
+  letter-spacing: -1px;
+}
+
+.status-bar {
+  font-size: 20px;
 }
 
 atom-text-editor.editor {
@@ -54,18 +43,12 @@ atom-text-editor.editor {
   }
 }
 
-
-// LINE NUMBERS
-
 atom-text-editor .line-number {
   color: #e0fde0;
   opacity: 0.8;
 }
 
-
-// BRACKET MATHING LINE NUMBER
-
 .line-number.bracket-matcher.bracket-matcher {
   background-color: #000000;
-  color: #33FF00; //  hacking green;
+  color: #33FF00;
 }
