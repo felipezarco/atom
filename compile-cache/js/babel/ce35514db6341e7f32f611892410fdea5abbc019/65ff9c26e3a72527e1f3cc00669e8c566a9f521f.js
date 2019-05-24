@@ -1,0 +1,45 @@
+'use babel';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+exports.triggerMeasurements = triggerMeasurements;
+exports.applyFont = applyFont;
+exports.addFixerElement = addFixerElement;
+
+function triggerMeasurements() {
+  atom.workspace.increaseFontSize();
+  atom.workspace.decreaseFontSize();
+}
+
+function applyFont(fontFamily) {
+  var font = '\'' + fontFamily + '\', ' + atom.config.get('fonts.secondaryFonts');
+
+  // NOTE: since `sourcePath` is specified, there is no need to
+  // dispose of fontStylesheetDisposable here, the same style element
+  // will be updated, and the newly-returned disposable will be
+  // exactly the same functionally as the old one.
+  var disp = atom.styles.addStyleSheet(':root { --fonts-package-editorfont: ' + font + '; }', {
+    sourcePath: 'fonts-package-editorfont'
+  });
+
+  triggerMeasurements();
+  return disp;
+}
+
+function addFixerElement() {
+  // create a fixer element that forces chrome to load font styles
+  // contains *r*egular, *b*old, *i*talic and i in b
+  var fixer = document.createElement('fonts-fixer');
+  fixer.innerHTML = 'regular<b>bold<i>italic</i></b><i>italic</i>';
+  atom.views.getView(atom.workspace).appendChild(fixer);
+
+  var _require = require('atom');
+
+  var Disposable = _require.Disposable;
+
+  return new Disposable(function () {
+    fixer.remove();
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3phcmNvLy5hdG9tL3BhY2thZ2VzL2ZvbnRzL2xpYi91dGlscy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFXLENBQUE7Ozs7Ozs7OztBQUVKLFNBQVMsbUJBQW1CLEdBQUc7QUFDcEMsTUFBSSxDQUFDLFNBQVMsQ0FBQyxnQkFBZ0IsRUFBRSxDQUFBO0FBQ2pDLE1BQUksQ0FBQyxTQUFTLENBQUMsZ0JBQWdCLEVBQUUsQ0FBQTtDQUNsQzs7QUFFTSxTQUFTLFNBQVMsQ0FBQyxVQUFVLEVBQUU7QUFDcEMsTUFBTSxJQUFJLFVBQU8sVUFBVSxZQUFNLElBQUksQ0FBQyxNQUFNLENBQUMsR0FBRyxDQUFDLHNCQUFzQixDQUFDLEFBQUUsQ0FBQTs7Ozs7O0FBTTFFLE1BQU0sSUFBSSxHQUFHLElBQUksQ0FBQyxNQUFNLENBQUMsYUFBYSwwQ0FDRyxJQUFJLFVBQzNDO0FBQ0UsY0FBVSxFQUFFLDBCQUEwQjtHQUN2QyxDQUNGLENBQUE7O0FBRUQscUJBQW1CLEVBQUUsQ0FBQTtBQUNyQixTQUFPLElBQUksQ0FBQTtDQUNaOztBQUVNLFNBQVMsZUFBZSxHQUFHOzs7QUFHaEMsTUFBTSxLQUFLLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxhQUFhLENBQUMsQ0FBQTtBQUNuRCxPQUFLLENBQUMsU0FBUyxHQUFHLDhDQUE4QyxDQUFBO0FBQ2hFLE1BQUksQ0FBQyxLQUFLLENBQUMsT0FBTyxDQUFDLElBQUksQ0FBQyxTQUFTLENBQUMsQ0FBQyxXQUFXLENBQUMsS0FBSyxDQUFDLENBQUE7O2lCQUM5QixPQUFPLENBQUMsTUFBTSxDQUFDOztNQUE5QixVQUFVLFlBQVYsVUFBVTs7QUFDbEIsU0FBTyxJQUFJLFVBQVUsQ0FBQyxZQUFXO0FBQy9CLFNBQUssQ0FBQyxNQUFNLEVBQUUsQ0FBQTtHQUNmLENBQUMsQ0FBQTtDQUNIIiwiZmlsZSI6Ii9ob21lL3phcmNvLy5hdG9tL3BhY2thZ2VzL2ZvbnRzL2xpYi91dGlscy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2UgYmFiZWwnXG5cbmV4cG9ydCBmdW5jdGlvbiB0cmlnZ2VyTWVhc3VyZW1lbnRzKCkge1xuICBhdG9tLndvcmtzcGFjZS5pbmNyZWFzZUZvbnRTaXplKClcbiAgYXRvbS53b3Jrc3BhY2UuZGVjcmVhc2VGb250U2l6ZSgpXG59XG5cbmV4cG9ydCBmdW5jdGlvbiBhcHBseUZvbnQoZm9udEZhbWlseSkge1xuICBjb25zdCBmb250ID0gYCcke2ZvbnRGYW1pbHl9JywgJHthdG9tLmNvbmZpZy5nZXQoJ2ZvbnRzLnNlY29uZGFyeUZvbnRzJyl9YFxuXG4gIC8vIE5PVEU6IHNpbmNlIGBzb3VyY2VQYXRoYCBpcyBzcGVjaWZpZWQsIHRoZXJlIGlzIG5vIG5lZWQgdG9cbiAgLy8gZGlzcG9zZSBvZiBmb250U3R5bGVzaGVldERpc3Bvc2FibGUgaGVyZSwgdGhlIHNhbWUgc3R5bGUgZWxlbWVudFxuICAvLyB3aWxsIGJlIHVwZGF0ZWQsIGFuZCB0aGUgbmV3bHktcmV0dXJuZWQgZGlzcG9zYWJsZSB3aWxsIGJlXG4gIC8vIGV4YWN0bHkgdGhlIHNhbWUgZnVuY3Rpb25hbGx5IGFzIHRoZSBvbGQgb25lLlxuICBjb25zdCBkaXNwID0gYXRvbS5zdHlsZXMuYWRkU3R5bGVTaGVldChcbiAgICBgOnJvb3QgeyAtLWZvbnRzLXBhY2thZ2UtZWRpdG9yZm9udDogJHtmb250fTsgfWAsXG4gICAge1xuICAgICAgc291cmNlUGF0aDogJ2ZvbnRzLXBhY2thZ2UtZWRpdG9yZm9udCdcbiAgICB9LFxuICApXG5cbiAgdHJpZ2dlck1lYXN1cmVtZW50cygpXG4gIHJldHVybiBkaXNwXG59XG5cbmV4cG9ydCBmdW5jdGlvbiBhZGRGaXhlckVsZW1lbnQoKSB7XG4gIC8vIGNyZWF0ZSBhIGZpeGVyIGVsZW1lbnQgdGhhdCBmb3JjZXMgY2hyb21lIHRvIGxvYWQgZm9udCBzdHlsZXNcbiAgLy8gY29udGFpbnMgKnIqZWd1bGFyLCAqYipvbGQsICppKnRhbGljIGFuZCBpIGluIGJcbiAgY29uc3QgZml4ZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdmb250cy1maXhlcicpXG4gIGZpeGVyLmlubmVySFRNTCA9ICdyZWd1bGFyPGI+Ym9sZDxpPml0YWxpYzwvaT48L2I+PGk+aXRhbGljPC9pPidcbiAgYXRvbS52aWV3cy5nZXRWaWV3KGF0b20ud29ya3NwYWNlKS5hcHBlbmRDaGlsZChmaXhlcilcbiAgY29uc3QgeyBEaXNwb3NhYmxlIH0gPSByZXF1aXJlKCdhdG9tJylcbiAgcmV0dXJuIG5ldyBEaXNwb3NhYmxlKGZ1bmN0aW9uKCkge1xuICAgIGZpeGVyLnJlbW92ZSgpXG4gIH0pXG59XG4iXX0=
